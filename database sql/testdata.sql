@@ -1,440 +1,645 @@
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('ERPL9PWVUEK67TALT2T2KDKLSN6DQJNNWXLLFNAPD6128EKPUIC6U94164T1BH8B', '11:55:5', 3, 9, '  9', 'NC937AV3HW HM4 JV1EQOPKBSVYR1AV9JD5N073K04FYQ3QA3B2HIMY0TIEU7CAT');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (13, '8T CRER5YLAKHOSDIUQ3NKKP33SIEXSS2FSG0NUUW U14ADS4SMSCCH1EWLWNUNJ', '4:46:50', 6, 11, '  2');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('16NCYMRWUUVONRVSH252RACASYR 83U27TB8OF7SWGASO4RFYWPJCAXDNMCTA2Q3', '8:2:8', 18, 3, '  A', 'UCO56RQNRSUTF7 5M4U59IUE8BY04BQ29Y5RHPYF2AFKGHIA1X7S430E67LNG8VI');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (19, '40WCN1 MSQ1G5SMN14Y6I0RPJD3E6 S1NG0IAEGCN42TIFKVP8CW3QFANN QACBK', '8:7:10', 16, 1, '  3');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('UH0UWT8K2LRU93THBTJIAA19ONHROB4NR2Y27CE0H95  VUT7FQ39880EGAI5DFI', '8:47:46', 7, 6, '  B', 'X6CH P0TAJR5H2BNWB9S3OKKU0B2XR7U73U9DIKSF38JHINCIYOKI7MEPAT3QXV3');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (5, '60ONTD0JQ8Y5804GN887JQY2P0PP69NJXEN74SNMXF 8V15EPKM5YTGWXC8EQ3MC', '6:45:12', 8, 8, '  4');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('S0 FF7A8E9OGEV2W1Q3T21N8RSC00EEDS17BEJ3AUJDFWADQ66N T2VK8L9AOU6H', '13:16:9', 2, 17, '  C', 'SWR5H4FICIGGJYUUWNMPO4OLV4JIM HU0XTL3U1CA15HJN7ESJI56M04H45YPH 2');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (0, 'VGECRI78S7L6FCBOG2BSMG NLIR800T1N42JBQ7E WT64F6H6RVFGHP7O5YCT1A8', '5:57:35', 2, 16, '  5');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('41K34AVTG7AWKD3UFY8B5RI HR X7O342FTXWQHMP3IYYURAKS1 9RD45X323247', '1:18:26', 12, 2, '  D', '0M86H9I3L37YYTXYJ8UIBK 6J0HEP9943E5WXS8S0LUQ9MA1L65FK616TRU7J3KI');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (8, 'N15TIGDSVPQF2BTH5VV4AMQMC2CUW6Q0UWVY3JQB3S40F2JTYQ78XVM0D4AAWLXE', '8:46:45', 1, 10, '  6');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('A5INHKR MUHOAUYBXQ MPW0F23XDD3D7H1CX3N UNH9VSL33I7UXO49L4MQD79YE', '9:48:51', 11, 19, '  E', 'QL3R D127EU21JN5VMRI22J72XUP5AT5VSHPOLP99L5LGIFOE4XRM4G4VK2 PQ20');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (4, 'N24LO2J53ERGLJBGYGEMKJS5MTV5XB3YH4SQTOURJ6CBOM83PH18JF7I4TRVSMFP', '7:11:43', 17, 13, '  7');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('MOEDANDA00P BCEXHL7JI5YP MWHVDXYDHDPTFTFGILK8ABWWP1BDO66FSY5XRNT', '3:32:4', 13, 0, '  F', '2G3GYPO8C316IH YW8S03X2TSIE7S48DAMYFYVEGN8653UKGSX5MN8RTR0SJSYKC');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (3, '0SNWL4CI323H388X8OBHLCFQW8ENS8Y0OFL3EOUKW44EO8R1GUAS6XY49J02V3AF', '7:34:54', 11, 18, '  8');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('3U62P9L44HMHXDH6IW4FF5IFL1L6OMW9K443W TMJWQK2HW XB1GQ4FO2K19 PF8', '0:29:59', 10, 11, '  G', 'NG5R65HAWFXNBYKQI1 1OEI0XADYCYNP2M3YH URD40BMNOAA8CWNY24APWT F3Y');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (11, ' V 25IRB13FT14QOWN5UTS2YSR7DI4MQ 9U1 DFLSDM496EYMJGYTLKXGES5U9T5', '4:22:1', 14, 7, '  9');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('CFJDK92 HJDQOIUN0GP27MKX4P42IV24XPNFU7ICBYYMW7K0I97JV6CK207WD06A', '0:0:0', 14, 7, '  H', '4FP6HJJNKANHW354 J BSSYKBG6G5S7HI8J641PDY2JQNYXIG   707T66S3 YTC');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (6, 'AY7A9OFAVECJRMQ0TR7INI72WBL6LVLRFN0NQ0H9SHUHPD4MRPVUWLR2T GORC2T', '3:1:39', 0, 6, '  A');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('EWXL9RTKXAJ7JNAG UANCKBPOSNWLUGHKF02FERWN5ACYSR8EKXN27SKPP1F3WON', '15:8:47', 16, 12, '  I', 'TNPFOSTEYJS7IXJ4BJ8890P7KAXBKU1FV2RH0VEG2Y5 LQVFC DXDV3CNS PW5MD');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (14, 'W FOPE5KGAWVMF5QX9BJSOM9XD0CF6Q9F4L4S8PCQOJHM36VAYP3UKRV88K2A GQ', '0:0:0', 10, 12, '  B');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('PQDJWO01XRN3VS79M7QTJ EMNBRDHK2CD6BRD52E8Q594ERIEQ3S8J9EEBN0KX7H', '12:25:10', 6, 4, '   ', 'NFPNJGISJOALU0W1OO39AIKWBY1OUIO2O2B6OCIYQLW6609LT0AX9US4AD4S8JQK');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (7, 'B8X7NBJMBF3VB44PSCJ156TPQLE2LYI7W94P759JK29HET2GGVF5MFBPP 0V21PL', '2:26:58', 5, 17, '  C');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('KOPSW 4M6HK3QHE35VJ452QW79RM127BPDOK3E2WIVFQODT1YKLNDXW36D8HTJEH', '5:41:26', 4, 16, '  0', 'CHUNYJNDTCFB1L868UW9 F J349JS 3E8PUCXS01DB13BR 3YEH4FXI4DMJIKQGJ');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (10, 'VQQJ7D9JC53GCHJ8VXTHL5PECP3NPYUQT84TQRC ER4KCHGG59W5R8QS7VT73T6B', '3:48:18', 3, 9, '  D');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('WC8J6AGWTDK26X88TMCMJG36HCE4 19HJX5329PLMYRR6GGYUCLNV3CBKLLP8E93', '7:9:40', 9, 13, '  1', '5QUC7H68YN5PEQ0K76Q4 G72S5NQHAK2MSI6DPO2M7V38A2C0YDVFE3U3QSLU796');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (18, '17R5L5FHHI8V6SQW0VEGG1I3QIW5GKYMADPFID7 MR0I8II7UA0VN0WX5QF4HV F', '3:33:12', 12, 4, '  E');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('2YA1XHX5DK9UPLNU ANQMBL9M16VXFH0UHYC33W2FK1O1OXM3GDQUI5OA6SE2TH2', '6:19:28', 1, 5, '  2', '4FLOQQDINQC7U8MT1TBWCMB9F2A47F1ITRMI23 74L3EJC4HP80AX2WO3FGT11CP');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (1, 'BV4EY0HE XHXX6SINO140S1C2QWGY3MWC4F9JDKIJ2LULEJRT3I1H77F7ERDBF 6', '1:25:36', 4, 0, '  F');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values (' 2JMPWRWFI0Y2EG7KTOD8ODJSWVDFD5KFWWKHOHYBJI7 7Y1GDSKG7VJPSNUT076', '4:34:35', 8, 8, '  3', 'CPUA DLG9SMKXLW3TCQPW46BA5O1T45MBY69TDWH7ULB01BYCMPENL SLQKW1M9L');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (16, 'G5C9T4SX2GCVH5WXJS4BM7RS0HEOUBIBR3EJVXAMR9LWN1FFXLHGNVX2LJCRTK6S', '5:35:4', 15, 2, '  G');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('555NHTI07EXAE803S0 H83F81REN6CYUHHCVLUXIOXT4BOQ2620TOUVB0MLRHIYE', '10:50:11', 15, 15, '  4', ' C1JTVLRT31U3RRV240IXCY0MTU63QLD3CPQEFLD6YRLMWBJGCXQJ Q V91FAP6N');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (17, ' RNL1O4C8GKO8FTM7UTDBURXRXLCJ13DS 4KQ48V1ICIK6CCFV8I X2FGM2KM96T', '0:53:0', 19, 15, '  H');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('54E013YJ6HULYHUJDKX65D6JTUJD PWON0CUXJXIN56Q0OTBBM8XC9XB7NX M DG', '14:3:28', 0, 1, '  5', 'AM640HJ5G74DK6FY1GEDG1V1E8I5 TAQJPTC360XXMHJHNH5IM VRWSV IGQU95N');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (12, 'U1H5KCH3XMYLWIW8V4YYD4698T86BH5K1L3YWR0YFKIQKSNPP QX2F5FEYNOP947', '5:19:2', 7, 3, '  I');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('XVU7AUPSSUFEIW2WQFY3VTA4QD25NETAOYGUGH7NQ1PWFGCS1KX000S59F1TJJ13', '2:30:1', 5, 18, '  6', 'RGY4SA4BAG9F 25J67AYWN3IHMNULYF7SX4XMSF7CTVGLVBOGXH20LYKDALV8LT0');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (15, 'AIR5672M8OWDRKW01G39MHN9BSQMIWB2H0XCIAN2C8658 PF5X208R0L 7RBCTSE', '6:21:42', 18, 14, '   ');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('NOBED14DIGEUKQ35 C TC6HNY62V1MBKB0B3SXYLWUCWCTXV93NWYUEQAH2QFY2R', '11:55:5', 19, 10, '  7', '5NRK6Q8S2HF2SDHJE75H6L7LUEK5CLJTVN9UMSHWOQDFH4HDM1MXP9ELEHIDF88K');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (2, 'P0KPCS74COWCJW XBM27JFGBHT61CA5K93BHIN41JYQBXBE0JWBB8GR5HM2S6XXD', '0:15:51', 9, 19, '  0');
 
-insert into movie (movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction, movie_director_name) values ('NQY9S G 8EQFGC5Y1K1BD44OBSHPQVE4KI2BTJPKW8I1X0KJSFVX ICK1IONY99W', '8:2:8', 17, 14, '  8', 'A93N4YGF8 YW94K9N6INBGHOQN0NFW4KTF0O95 5R115LYRFPC309SRHAFCE9JH5');
+insert into movie (movie_id, movie_name, movie_length, movie_license_price, movie_rental_days, movie_age_restriction) values (9, 'ITDQ1RERWS1UFCR1LC A7KCUA21D1ERWAWCS6 1QH3SRMFOV1797R19L6HOYS1AL', '2:4:23', 13, 5, '  1');
 
-insert into actors (actor_name, actor_movie_name) values ('5LTHFM8AXNS4A7DNB 2ALFEO94RGA8FTP1689U1MJRQJQ1D7G3SOTQN5DPG S1DO', 'J80 3J85BEU975H2K97OMKUCIQGQ43NGERIPVKRBMHJHG55ODFNE8LLXY O97UOQ');
+insert into peoples (people_id, people_name) values (1, '46P778JQOYQ4S00U4YBL8CR17FG 7PDNV OADP2PIES ONWEFHJIYVYIPF8OM4C3');
 
-insert into actors (actor_name, actor_movie_name) values ('NI22AS4IUW8K8WBSCM6751UUXYT65M5YXT5YY877DAYSQPR9VSHCT3TV5P2X293R', 'ANSO2MII9WUM7CI26 P4TW9K0PS29U C5GMMH6TMM4W20O80ESXSW2AASG 4NJKB');
+insert into peoples (people_id, people_name) values (8, 'GP9OD87GV25XJ65C2OJXR VF937H90SRVMJ5ENMF5J3C5084CREHHYOJM2DA832C');
 
-insert into actors (actor_name, actor_movie_name) values ('RBPWG5KM5MUKDLH0TO3CHYD WHBRO6MSHE458 GMUJDO9P0F8IMW36K01DBLB IQ', 'TMI6S24MGYH3HLGUHCE5H1QAYWD8M IPBL DKS5SRTAW25PD3AWPL40BKL3O9URG');
+insert into peoples (people_id, people_name) values (0, 'XLEG7SKTAU7WT9SPMX5EW0HSK6D0RR2IIYW12P49M5CE30D5TQ6D38389J539EUX');
 
-insert into actors (actor_name, actor_movie_name) values ('9UMOX0FL0Y1M5WBXWSUDLJHH16KM4ECAON9PXIU4E217TBXE68942MXQAUSJJ O1', '687N2AP78FW5WFCJCLVO5BBGP9FKU26 QGGW6FX4CO0FKO56G2 G4RMIK04DDNLD');
+insert into peoples (people_id, people_name) values (9, 'TYEI94EA5VESPIXUN WL69 82DS2SR85XG ABROEFXC4VKWHHPJI6D7D4DASC3S9');
 
-insert into actors (actor_name, actor_movie_name) values ('FDLH3JKSVIU2MHWCJ0D5WPGXX RVXI1 1MG4F47 SBQMG6TV7088IB4R1HED5RT ', 'DSEJQCWVNW1HLJVITG2MN3NBAQG4D8FA3E7SS H1HEA48XFINP2DSXOYO1MHVHQT');
+insert into peoples (people_id, people_name) values (5, 'EMJODBCTA26CEUT0P9246JS9ANLRLXBO6PDC7HVV1WM957P22SJSUW39THEGACY6');
 
-insert into actors (actor_name, actor_movie_name) values ('N57UU 4OTU N5VRUWS53BW 2I1UD0G84PNN5JD VAQX9HHEB725SKSTT0RSRJ7CD', '4ECA4QII319 83EORWNVRD2YNI969N63HPX5DYH6VUIA5SJQKVR8SV1DTOVKO4RQ');
+insert into peoples (people_id, people_name) values (3, 'N13S 26PHJMIO2OVKHV6QE1Q0RT  32OLUXV7NW2GH 0S566644VVO2LKNW8BLRW');
 
-insert into actors (actor_name, actor_movie_name) values (' 5L45VLTKLX4TKPHXCMAIB5RYGHVJGSL2P8AQS9OUF9 VB CNR2H0A8KQXEM9WYO', 'O  6KMITLUHQ8XA0CPU3DCBCE542XFD7CDCR IX475EGMK6J D4EGG3WG 7OPYTA');
+insert into peoples (people_id, people_name) values (18, 'H4I5FTUU6GDULVX264QL30H80MSJK33UWR8 98X4Y43Q2N50RPN 2TFD097QOWG8');
 
-insert into actors (actor_name, actor_movie_name) values ('B9SA1DKKX2TA423Y0IVTR4J7G1SB0DP 3Y0CUAEX8JIT1HNPJU 1J05RH5ALUTLF', '2XD6RK9YCR350 2VG84UKVDIGN3EM84HMWDGI31JCIPVTWPWX5D2H6MX0CQ2A0S2');
+insert into peoples (people_id, people_name) values (6, 'JFP5UX8J27FH7CRPWGEB SFAOCYT126LA1D5QWP4C4CJWLHMBHY3 91UL88B6QIC');
 
-insert into actors (actor_name, actor_movie_name) values ('7NHVLG49XVMDWQAUH12W VFQVQST65KC8 20HYTUH0SRR47LABH871VUMLKDJGRH', '9DLJ1VVYE9TQDCHO46D47TPDHOH4F DJHYY4QK7IJARV6X17WK5NSXGDGWV7MUX3');
+insert into peoples (people_id, people_name) values (16, 'CINS5SRQ5SY7J0 KONQ 05RMILNKD9FF9W4GSW519G4I2S4A9R SHNMQ8IPTVAL1');
 
-insert into actors (actor_name, actor_movie_name) values ('4N1H JQ0V5XUKWVTBTWE58CWRRPG4FNLCCUQ4IHB 5XY42VEO0KR7N7UT901FVJN', 'DBDJ9EIFKK371U3GG0EHONLSLCDWKTFBSG3SLOFQJR9E1RRLMK2X H6GEDPNX5BA');
+insert into peoples (people_id, people_name) values (15, 'ISPLU816FLJLCHJB 4116337BOBG1B8VS1 VI1S0GCXXOE2CRAD2V72UXY9BJWH5');
 
-insert into actors (actor_name, actor_movie_name) values ('6FW3F96YDXREJV4JT9WXFO5ANL9EEAC1ELKGQ9K26RYFEDBO7PVU9S2IUSOCDB S', 'F0F5XUNO0G8Q B QVYLCX9AAE 0AGN8G125XTN4QNO0BSTTXENE2UUMS66LI2DEF');
+insert into peoples (people_id, people_name) values (7, 'IXTEMLOW7NUT8GLJDK8OUJTDDUW9YX4VGMUS160Y9LX8EKUUJNENHK7WW7HVAMTD');
 
-insert into actors (actor_name, actor_movie_name) values ('DVSXN9HI709AHU0FQDKNHLYSDTLEP2Y19VULA9K7MXDXXUFJWBCL1W6008MKGWIT', 'AIC7CNS NTLQ0KF6DPU5FRPH0A4JHIB0NBPWD 1AW2N36QV BFEX57W3K0SQF455');
+insert into peoples (people_id, people_name) values (10, 'ABPONKIXHH970A6 XVAWQQAU80RYDXRR4M6VE0U3HV8A1L6 TFBV37SHS678E1W8');
 
-insert into actors (actor_name, actor_movie_name) values ('P OHA9918V7XFGL CKSB9D0449QQH95C9O06LT780QLW4X6LU TU5T3O 9UOK8H1', ' E5AO7XPLNOUJDWT3VL4OF6A5K1VY02PG3SS LX4MPFS56BTC HQN 4PEDV184U5');
+insert into peoples (people_id, people_name) values (12, 'BNEURBGNH5TEX9FXI5HCVMEFOHR8BL6JVX14GCOW E4OIOI8J3GFGJV80GYODAXP');
 
-insert into actors (actor_name, actor_movie_name) values ('OXQ95AU2I90ERR8Q5HS1OAI3UTVN5RTFE5BSSKXLY4GHCVK Q6S5JYC83S7VRKOG', '2AMVFWX1XJU CIOSHTDYX6X6JWG2M7SF6UU5PB0OE9KT2SXE1KFOW2YGVMKVVYJN');
+insert into peoples (people_id, people_name) values (14, 'L8YFKGXNJQXM608CJ8LLLPWPQRHCXH7V5SMSMGSTYFNNYLPCWYMP18SJ74PGUXUO');
 
-insert into actors (actor_name, actor_movie_name) values ('42VUB15B2VHLH0G71AI61F36PGRNTS9BMLL2LTRT7HYCW08A0COQON57W UDKVOB', 'VIC4N7JE6FJGPEFVVA26IGIWWD5EXD8NO GNIFA4E MXMF69OD2D3PBYDN12B TY');
+insert into peoples (people_id, people_name) values (13, 'AU00 HN3HG5FK3E8896X8JYFRHH1FJ0 CHRAQBUWC8AL04GQ1MAVXA0M4899KF Q');
 
-insert into actors (actor_name, actor_movie_name) values ('DIVG36UFT230T12F1WI7FF4UWNU5S3QRARM6UK9P4DAV1NMIYK7NBADT CMXJH59', 'U6H5CWWB4LTCP74V60A0FF4R8TM5SSCEDHFYXWWD0P6SYT04UUDQQPMMCLQC9X94');
+insert into peoples (people_id, people_name) values (4, 'PNHYYLQA73XRKG6A61I4UNRWSM99HI2A934DO8I5CSRARHX8YNA681YKP55HFBUO');
 
-insert into actors (actor_name, actor_movie_name) values ('9KBTNWAOXNQYSBJUKRD7HPQWU1WMI3DSLN9EYY08EBUV8GGELCQ81JKOI4W0QL G', 'AXSL80QTO2LCPB7 6P0R0C52962WPARR VXKXCH28WBC 8C46A9OP5TUH0N 67UN');
+insert into peoples (people_id, people_name) values (17, 'D53Y6V 54Q9XSD89B0JR6V3BSY5DR2KB8AB60MW34RS5QA93PC4DO1GK15 Q84S3');
 
-insert into actors (actor_name, actor_movie_name) values ('EQIPMIH10OV3MLQPIH0725PD1A84FQGWVMOMW25XKWJE7NKUMG5KVDON4PI 0P7F', 'TT94SMOHXAY9IE2BRARSUAY6AMNT9WPBY9UDYV6NXKW3NUT5LQQHLO EQSRRXL03');
+insert into peoples (people_id, people_name) values (2, 'U ETQAXIJNUBGK8PQ8PYRU8 0JL2YTPSP5WJGXUMYWKYIJC6ESXTP251LACQ NPX');
 
-insert into actors (actor_name, actor_movie_name) values ('JQ1S1STVXV5GBWFJI7H9HNNWL9ACBW0 FAF8FJCWNGNW7B0E1CO 546910T1GMIL', 'CUGO8U0G5YJ1E4AO2RYIBQSJ68V HT2EP2FKPXLAM5G7S423R7LWB8BFOK3U7UJJ');
+insert into peoples (people_id, people_name) values (19, 'BL2B1VJ0CFMME74FFN9KX9 XW58UYVX8L1IJTBHVYJ6UD QWV58 R1MG7TFTUFDQ');
 
-insert into actors (actor_name, actor_movie_name) values ('6BWO3F40BVXHTHKQBQ82GJ YEWYNL6NXC9JKLSTOGS2X3XE2DPJSPG5TMNP FQV9', 'UG1QB3D02B2I02V6E6X1A8QEBOAN72E85AR1AHX5EJ425GKLWOVM4QWLQC65FS9L');
+insert into peoples (people_id, people_name) values (11, '7R4N6GEL12SLFHT9DJQ5B52YMHCOFRH507ABQELBJ04A1Q5BYC43ATTGH0RV50V7');
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values ('WF3MT1IKIDMYUD1R H8B3D75U61XUG1 BU2C5BNJ4ADQWKVGUP01XOVYH5FP6H5U', 13, '17HQPROU09BQ  C0WB6GI6EGEH1EYI34UO2ULQ3LKB SWREVVMQ7OFPBIOEYLKV0');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (8, 'FBTMTTMNR50O7RVVK0SQCA54EXJPRUNBE4SBXA83 SYI22I93FBUN86EX77GJN89', 1);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values ('I6FWAH1FQEIAW08 J4Y1YTN71 3D9NI07VQR7J 77H5ROUX09U853XKES1SGJ2PD', 15, 'OJLBMBJEJR0J 3LQH7FD M38RJ5Y4SMUT8PIYT6O5IODFAN9 OK7G4 9UF3CX5O4');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (7, ' WQ0OHR8B98OSUR6HBM3TMJ0N8Y JLSSPUTYQ7YVOON7WCOC07QMYBIEP3C JF R', 2);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values ('79NETSI1 E2KSLYC8F6HJHPIJR5QPWCOSLBXAUK7IG0XYSGSESMWIQJ5 Y2LYBJ6', 14, 'HL33QGADD1HY1BCL2D5PU61POC4OHDLDIJ87VYGGNFBCHOHBT5F400EHAQ768Q6K');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (1, 'Y4I4BG2GUPXY1MI7YDCIDMAX6BBEDQ5V7VA48R8DS427VFHJYKXLTG1UXOC1RHLT', 13);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values ('S 254A0CFHLLMIQ6HPWPA8HS59P5ANGLNJDT20AVTQ4WQWRLDK5 IU7FJXN4R0RS', 18, 'LI0TXMYO7BFTGA771RMUTJ 7GVAUC FEFLOGR5EHDE6CXLYY8EG9 MGQ0SEW6A8H');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (13, 'RC UFMP8URBHVRDTC5EXIIUPOW 85FC3WAVT1WJMOWHFN03IH7I5O3T9UW917JP3', 6);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values ('QE6ESBRUMNNPC1S GYX9X 9GN2PHRIHIGYT8WEJDXYWRKI3LVIOWQWPVMUOX3LS8', 1, 'R1E6 WSFNLIS8U8U5I9KJT1D3BRRPP2HIQUFDPA8JVX3 C41L99QIP200657IT5R');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (6, '4UR69S I8QWI WFNLWQ3I2VN031NV NS8J8BO12S88EYILQU6JIVMWE2YBP8E5DQ', 7);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values ('J5B 1641G8WLKJ7KJD21IQRCN136PM6T5GP7PK P4FRB27KCLN46RBNNY9701N8S', 2, '5CTJYAGEPE4JPFQJGUYBHAR3R0JHKYR87YQO5MH6ETCBUME23RXQ6DYT58G037GY');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (11, 'Y7V5GKXJDM1MPPV67FYE0MGWWWCM6WWNE409JWD90L5M4B8N2YXB3NS9VTI71EGE', 9);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values ('5U9UD1IC5BV028YGIN96GVOQ8VC5UGM0YO4CKKR 2ED0QEUGQ2GCGM2NW3 CWK03', 12, 'DK29FFF8RKIIHLC7DE27N6NW3J04QPASG3PTLEBGJDI JWR9VYCB6N5Q2K YNO Y');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (4, 'JDHAWUNHXYQU0N4J7JD5SLKJHJ50J287THR0746XMHH716KGH PQQT1U T884S4E', 17);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values (' 20TDP3FS4F6NJ0M8WVKGE2IS9RLERF 86MN0T9QU 7O2R4 V2D6XYDNGUAVK1 E', 8, 'OR36898MC09X4NXWG1WSB40J5JAG0CUW2OLM6GAONLD0KSBTAD4 9X9PNJC7TRU3');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (17, 'AIREMQT WOIBSJTQRXIMROY EJXNN86CEWFPTFOXM29FQFR0UH14P9SEVRPGAP6F', 16);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values ('UE3TQ6XJRN7FL S HVQJDDJH 6AJ0VQFTEB CD2194YNXHYPA5M 7PC8 01 XC7 ', 5, 'EVY429HRTJLD8WA PRJH1SS79IKUPX44MX SQIDNAS66 EDC1XATHMSJ9 DOH1GA');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (19, ' WY1BG6F58QV1VWLCB5H7B1CEJWK3YHIWX3LG8US1N0KX0XAW7DVFRU975BY5NQK', 0);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values ('HDB25O 8L7RWB 8GXT1N9GMDCST5X9WM8QO5MY0P3M3A96MFATKVQMFQQPCSUFRY', 16, '0RJK1WD3JXUCH7F014KFH0TVI1AQFDXDTA3SCNCGG54O8BCOST2Y3L0HKBFIYP49');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (14, 'JJBAXMTEANN8W9LUNSS4L8WIAIW3TMST54R4HWE6UYPHGP35LI QES4M UPV0QCK', 5);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values ('1VULVJ51P3CT1NYGN585UEMWCDJJR7 DHS2 VO9PLOSIOU9OC97AGSHP0WUJ9AFL', 17, 'C GU8TSYBBWL  YMQ183YIQTM4RUWVT61F7BDDV19BXONJ0353C8S4 YR4J3K12Q');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (18, 'C1F3S UUHR3QOL 772HNWHLGJSWJV4L7PBPPYMFTB1FDEFI9H3WB94LBYRX49OQ6', 8);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values ('XWQVH4M R5 IJ1L676TQMB8374E3RJ5S VHXIKPVPOQN0EDT3YJ70V  4CK9RITJ', 4, 'LRLQU KHU145DYAP5INPQJE9CA R3H5AQSSE0U MA1J7MUQXT8S9N1GGI2VD1NL ');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (10, 'EG7QQ7VU1SLVOGR39DIS99P0 RX7GW7X8MHW0RHUUSQN24K7CTSTAV6 XPFI3OBT', 4);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values ('X47D4XKECILLUQ4HX7VW7JPITXA3XTEHM5LYHP41QJK40E35SE52S Q3 3I J5VM', 0, 'DQJADP X5OQQ3J1EQBN4SKJLPM69T7UUGBATI021T3Q9X5VADL88DDGNSSET Y6V');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (12, '0WBMDHABOPYKDGVNC1IXXML42Q297CR3QC2E24G9DLTE1F0WSHM3TOCNFY1JDE68', 14);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values ('B79E7ERXS29YVTPM1LTNRG4G3C0FQTG4 0QPIQM58GCMF6456LQJ8P1YFDYNY22E', 3, '2OFO7V9P9 UGVRK99YMSFE8WM2BF7ACDSOY4D22BA5ADK6SDD67PH32R5V6JUDDJ');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (3, 'IG2YPU89GREXQRRW2GXN4M PUEP2ER6O5UVGLQA5SXDRLGWV432N21UK9OSO0ETT', 11);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values ('VQDTCTBPAUKF3F3K316N8R2UAB1RNTS1XVADISB1RHAQ DDDG5U9UNQ7GAQ8QNP8', 19, '4V0FUK TMVXFVNI5IYRELDBRURLPJKDEPD6BXRQH 3JRX GFM6FM 1XXPJLV9XJ5');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (2, 'U57XUGRKX3M 2WI51KJJ4J93KK8UJYVHUU8AUERIGL7ECL2P1W5NRCNXGCQF84HI', 3);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values (' XUTMJ9QXOYHFJR  WE1GO BSKXGWTW63QX8 GGJ6AEGLVYLR0RORL6R2RE7CYQO', 10, 'UEEIMNGXPVTRU7L5IFQVT2NKC7BFW32ROB6DAM6N26GH5XPCXO75Y C8RIEXIXG1');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (5, '9C9UY5V9C5I1CDJS7XMVT6HGUA0H8G7216WNKEFMSJQWGEX4H758S7XMTVR QC Q', 12);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values ('JFHD2J8CAUIUUS PFT93JUM4FA2X S02IF0EGHSW38O0O35KL8HO9GO5OH5IL0TY', 7, 'DI93A6G0U8XM79PQQ0FJQELKESHI8OC5O5T0FHRXA1DWMTL2Q0X1AWF1D3GAUVH ');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (0, 'ARH81EK1AAM3OIWGFL FVN7DPADDKQ12GBSGVMI 1T57KUU0T0K5POEQLQPVALN ', 10);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values ('2ITMLW6QIEHY1INB1U5DC Y2259 LL3W7RXQRQPL JV61JJ9BECVI4E8QDJLKA8F', 11, 'O9DDJ7IPQIG31QFKS5FLHVIIRF4OGTP5Y89MKCC01GS0SELJHK06P1QHMEBFX2QM');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (16, 'TICEKFYD41 FBJEJ0SYF58RCFI8H4ADOA H2WPJOTQGXF 87Q2XSSND75GXD8SQB', 18);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values ('SBSRXLG9MSG5LFDCJG0XFCT40SGO1M21 1AQH8NQQ8HGMILLIIRIET3R TA8SQG8', 9, 'XCEU5 HNBNEWKGLQRFBLB8DMBG4WMFOXFRT412GF 0AYM2W3W 9YMTH3LGIG0VA3');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (9, 'P0CF1Y7Q5FBNLN8H57Q48GHDEM9O330JE1LIY7OED16DR214O3PNCBWIU0U5K6JN', 15);
 
-insert into studios (studio_name, studio_year_of_founding, studio_movie_name) values ('AM8N7HKXXMR5KTLJWL0L51F44FMJ754R7WEY9IHG674INE50EHA8JG8EFEGOLMK2', 6, 'AN8W5J70GCMCXA RMC7D2HBMQPI9312PDGDNLC79MVG4R8WL7BUHUSRXBXYDUQEP');
+insert into studios (studio_id, studio_name, studio_year_of_founding) values (15, 'W1FITDJE9QWMWC7NQ4YJT2TOU2WMVTDGY4 U1X9XIF225DXYU6D10AUM2MCFBP4H', 19);
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (14, 17, 7, '31KKTK5CNR 5IY5O DYMEG61EM2LVA5999HHHSUMCPVI4GL21F WH6IS9BMD4IQF');
+insert into countries (country_id, country_name) values (2, 'VO58UWEUX0MPKMYV5RH K3D0EWOSHOR6W S887PFE0KGFQPU7RT5OBHQ1GOX1JEM');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (5, 1, 11, 'PKM4B76IMMQEIPTS5Q6S8IIITP9QLBCDFXI6DBPCLM47UYL1GNBDTMCB8NB68739');
+insert into countries (country_id, country_name) values (5, 'I7WW0A44RU8KQJK042U68EFQSDHNRJVQRRXIG7PMQMJ64RU9UC994FQL85VXFNBP');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (17, 19, 16, 'JK6F1MUA Q409738Y0NMYOYCMK3TVEKTBT4DPRC0UG6 8JEW5J0WPUAQT47TIQY1');
+insert into countries (country_id, country_name) values (3, 'S8PP S75OJEU6W28RSJU5B0IELIT YCE1TE 6W6WB52CMDH692HL091UB4FC87IF');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (6, 16, 10, 'GRACH0PVEC2CUGGOC0FWPW7 J55I6ODTERFAD5FTVWDJDR6GE18U7N6BCC3VVOGV');
+insert into countries (country_id, country_name) values (11, 'PJAER4WB6APV3X92BH2H7B2APE2XEH66YLKPYJ26L48UVGPBTD1FK6475TIE9UPO');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (0, 18, 12, 'CP9LF1XE997QL6MKPMQP323NA11VVDUAL22JIYE59VEY1WTRX  WBBR6QSSV1O45');
+insert into countries (country_id, country_name) values (16, 'OYF318 YWKLQH PF5N7A8BET41BTT9WKN89OT5E791FGNB7P YW6I7P1WIU1509S');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (1, 6, 18, 'HOSY52H 5KTLBNV1P7GY3A4K1SKWA1MTSRHAF8NY6EFHWY1AHRLT6GA7HRTAVBY9');
+insert into countries (country_id, country_name) values (19, 'VLY5814RLMP7S1WTUR6QKB5PP71UJOCT6T5IOCAFJ283326OLPPD8MB15U7C3HOK');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (7, 15, 2, 'E9NT4EPP8IT8OXL3JY7Y520MX9VODRHBXPAXVK2 FCSNWVMSS899FMOLW8SCQQUR');
+insert into countries (country_id, country_name) values (9, 'FJ8WG913YCSKR6YUQEYF 0KK0BF3LDJ6VPH WNR2C QUGLTPMSPERD9HXUCD3P92');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (12, 2, 19, 'LX0QB3S3HWKH4KCB785SI2LJJQ8QUDYIGWYWYKPLG4IOF 9RMJ EC3ITEL3JMKTM');
+insert into countries (country_id, country_name) values (0, 'ON3GYIX9D085V7KINUHC82SNEU798ECPG1RP8NBAEVVNA51KKNIQAIBVGP5BS3R4');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (10, 8, 13, 'GR8TDCNWXKM3JUKE  67RU3L6KNB9DJY4VSO37VHOS8DW5T6WAKFT5D638O8GOX3');
+insert into countries (country_id, country_name) values (12, 'XCV6B0658528YL0DMOTUDK31UH2BUFLKIWFDL23P1MC3PP8FH0VXQCV0XWT1V8U3');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (11, 7, 0, 'HR5A4E2G151IBUTETC8IXPKQSFUTSDPRGJ0LFM4U63OSBKPWK5C8AVTSALUYWBK ');
+insert into countries (country_id, country_name) values (1, 'UYG45EA4P3A4KRALR WTBKWXFVNPYLD 9ACF9JJF06HSJJ6AD44BCHDNFQEI4OXO');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (2, 14, 3, 'VB7HG46O4V9AWPN7CYX1ISUMSI  81Q1M8JIVAGAJAWPTRM21JXQXHJADJ8PPWQ0');
+insert into countries (country_id, country_name) values (14, 'BOAA0P6DIVP0CNWDKSKJB SVLT91KBAIW6PJ3DVOSH0YCPANA3D1STGDSX5UV2WO');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (15, 11, 6, 'JESMYX4AH13LHWYKB 743292SA2BCAPH8KEVAH0EEO7MLQDU49J69KSEODB 3TF ');
+insert into countries (country_id, country_name) values (8, 'WBLNTTH05GC M6UF3TE4WLWUI 24B7MQ8Y9L1EVYUPSYKYVP 3F1JCMF3XYCBB7U');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (9, 4, 5, 'E1CQQQONGVDYMP NL9LB53BVL 7 GO 9GA39XY2NL1XHIJX0L4TFBM0SY7UDMDEG');
+insert into countries (country_id, country_name) values (17, 'EC0LF 7P31QI2IMM4Y7 D9JRAJTRAVK9 AFAJBXMWVDVVYMG8CJ8MBGWM4QCRTT1');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (19, 9, 9, 'IRQN9QGXV9 XAKMUDJFH2Q41MKTAWL1BV21V763PL058SXJE1KAUKPLDT1B3D656');
+insert into countries (country_id, country_name) values (4, 'IR557A8FXB44PB6YCJ3TLSI8HLEX2YR5JHMB846YEPGQ7HRC4I677QTQOWE6FGUT');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (13, 13, 15, 'XOC52VE0SBQ0RXNS YESMH6MBC4X745E3W567BW2K1WL9CH7DJPIJLUUBSH83KWW');
+insert into countries (country_id, country_name) values (6, '880URHS8J 5K KBFRAPXIUCBNT PR C5Q 1R7O0TPLT2Y50CCM3YIB1 E4X9R2UF');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (3, 5, 17, 'ACRHHY7U2YOCYNP66C2BNOEGWXIHK6Y6WOD5075C3LKL7XEPXAFJREXO YN XB 6');
+insert into countries (country_id, country_name) values (15, 'GRX07AIG6O EEIMPI1UWYS91YKAUQR8HA07SAEDH1Y VY5IXVRTVJ4JSAM0JXN0J');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (8, 3, 14, 'DJD4 UG UP0YM0XJ0TJA48MMDFHOI8M28C1KD H5E9GHXJ AIADSLYT9N852T1SF');
+insert into countries (country_id, country_name) values (13, 'LSQ5X9U3SWSE DWTQ86WO42NO3O54R8J9M4EWTK8TLIQYIJOGAG58OR2L 176JDQ');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (4, 10, 1, 'BQ99VUIFUQ8MHEXCAJV3W9U7P HDQMAUENDVHRKCAJG1V72MUQFST6LNNGH8SLR1');
+insert into countries (country_id, country_name) values (7, '9OVKMD S71JFIIM0NU5NRFLAIFH9SBGBXRJ20CKFRSAWS1NCES0BUBSKR15KNPDT');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (18, 0, 8, 'Q6FPK7NA4PEV248QDRAI8KLS25O1T82FRY8B2BKGQ5C6I1BTVKOQQKTX3DDP3H77');
+insert into countries (country_id, country_name) values (18, '9KQTRKFSHWB428B7RHE1 4 319OLB5NOKMP15QTXE476D7BF3 T6MHQXYUK9W3V5');
 
-insert into cinema_room (cinema_room_number, cinema_room_seats_number, cinema_room_type, cinema_room_projector_type) values (16, 12, 4, '4I8MC4LEXRR59LK3 HPMTLTLW61JNMEILHD4YC37O 47 CGSO317DVHRU4SR78WA');
+insert into countries (country_id, country_name) values (10, 'OB1K2KCPAPBUHMB PUTCP4AQO1KQAWMDR13546W4Q2GOYKVWXYGLJHACA5O934SX');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('VVKEH0VC7IBMMM W858VBDSIGBEHQB CTE87UY2P3VG7Q5N3IHCDLNB5PQJ51G B', 'R50BCO3IB9VP0IYLUP1VLRWL9SK4QGLXL0C37T8MKQPN072PW058OBB73IET76CP', '6OSNRX6JJ3HQPLURLKXJSJOMXIUNCI6FDINC2K60CYGIQXVIUN625VK1WMM2V BG', 'B76A1FT0MDF7PYE8L7F65RUJAHH6HDPPE8WTMDG09ILQBOW7B20JXI8F0X0GGVOW', 'DTBPLABEE7UN5LCFKHNYAQLDXF91MJDWPO8QR760FJS48KXOOO4JVP4VWX726P9I', 'OIDXUJKNDU1YHNUI W3VVL501IMWEYIXEKKXBT6IFR7FNORBPWHS89WNU98FCYLD', '36PM0ETO8OG1AGK5A2ATXBM75O9U6QMEX3CCSP4V16PVLGSFJS3V0FNBXJS1R5B0');
+insert into genres (genre_id, genre_name) values (15, 'OM5OPJMFWD2NXVN94SP8FHXY2AD0VLU5K8ULW649YMOYW1LX6PSJW6C X FNGGGD');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('BNI34JT77OVGCO1MIG 92EH2YDYV IYPODA7CWRFF9D6 0PH54QTBGOIXY71QRN8', ' VXP6RAF1YIPFAW7MHWJXJOR2G6A9VK3315KWNO8 37I4FOJH3YE0ICXCCTQWV3I', '9CUJK2JT04U8 LOB99SRJ29MHCNDR47EGMLEJDRBT8MKS82OWE7Y2OP1M7J9RFM8', 'HRXKBOPI Q6OCIOK 27LG0KGA5R33MCTP1P3FLD8BE1O3JHWGFEK1LS2V13ME4II', '7UHICKOQ3B649ST2LSP5A3IUCW29WUQ6IAQER1 9PCF08O15WQK0PMQDT2BI5KDU', 'ISR6SWVVEMD533ICORA8BOC1D5IM7U2BLIG4IUYKMOF79NFSJGFYBQCLYLH2JWU3', 'RIPA7NUE9U70A YQ5E4MHNXA0QGGIAIMQ83WDDW8C4GBHF2U54GV388LAWCHU02A');
+insert into genres (genre_id, genre_name) values (12, 'ATNYSMOKJCIE661CRL34E8SAHJQRMG84W7WYW4ENXPU3G6YS093 69UUII42XYPI');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('WQMUEY9OAOFQM0IQNRK5H1AG3CS4LKXIBLLK254FPSTEDKI1U34W1G IR1VGABKK', '3A34Q4FT05C5R18X1XJJHAK4W6GFH5GBV85AYQ4TQAF26QCJSV1KRL6GV3O1H12X', 'LJ9FHB6LUL1SY7Y8NS8YG0EL5GV2F51E3G1QN845XH7V4 1W6T8HRPOIPQ9CJQI1', 'WEYLKVDCIEVXYSTR5CW88PRVDPT12BGJPHF4GPSJPCW KDA27Y708YJL71CM8SA6', 'JH6NT31VOS7Y1X7YY6DN CLTV79A1OXJMG0INRQ21UJVX558E28Y82SJHXYJ3XXK', 'ET4X3Y61JJ4U4IEEXTWR FHKKA9L0CDGJE6I1ARM5TN0EMFNK4YC2YBJCPFQQWL4', 'BIL5Q50SICS7SI0EMC5XCJY5BBFBBJCPWB1PRA3MLHGM396PSDHRB68PLQV3YMT7');
+insert into genres (genre_id, genre_name) values (11, ' OOU 3RMKELRH0SR Q1OCMVLPROCJQLEWDK7K74LUL5OKB8EWLW8T7JA22O0NVOG');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('IPGA4XYFLEU5TSXI7SU9ACB 5WW T753WBFGIIQIVIJL43TQ0I6L7TXQ8X2E2HNG', '9WE8GATV3ROR9W26FYC6YD1N3F7TYEJ9Q9BNWVVAC82JNVWH 1O14C 5ABV KM4S', 'GL38671S0K8RB7LCP1KUL0UXF0V5WN38QO6A0GO602T75KBWYT7BMY5QH62VGL4B', 'YJ9DRJ4OACSJ6T33N72KK8V85Q7XISMGM2AOTUYB1P8GYW5C9IHJGPH738 FEDNX', '00NCLTM0LYMHLE2OH 91JD1WRU27 2LPPY8UWFVN6OGKANA7LP T04MCKK2O8AQ2', '993 I67BH61GJ8CH3DSXPRU7NTORH2VV8U19I TOWVQHQQV OQFQGTY580 RR17J', '4G1XLF 1BICQ1174C6WME4IEWHT0O7CJ5B8WN69ONHC8XRRJIIM7EE6QDN91V26M');
+insert into genres (genre_id, genre_name) values (0, '183RXECM1L0X2P0GOGF2VANOCSBHXR2E8MB0APOOD4M6QEOXPDNYITPO902GBW3F');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('5W2PIEGPGW4P3TI64UJCF7V6822CGMIFIWJFXIHUGHBT1II27WW XD5TD30UW4L7', 'D08PAN50 LVCYD9OI36KE6OTOBRLFSVDRPS4U7SLKUDKNNV9PXXEY V41BD8DYJ ', 'D4JOYWC5SRO4OURN9BGY8Y49A3S4DO8LMIF9XDKBKYLFKWKAU52KG3MQ8SHLT6V6', '49CH1Q8YKI6S5GTVYGDF95JTKSNRVAD60V1ER66OLIJ02MJ7T0J483S0UHY5E9JR', 'A9LHX87MA 7R2 W2JY5E9DCB7CWY9OBC51ASBBP925OII7WNLBYB2LMR 6H7P3FJ', '2LO RLX2VTX2VH 0FQRGBN8YD7LVC0VS7KSS8407SXJV8E1991VQPGO795EIQXC7', '2FUYID5CPGRG54BOLSWLOFR XWL42DXCUOJYXX8J7WYCAC9HBANYJWYK0920URP9');
+insert into genres (genre_id, genre_name) values (17, '56IA8KAMUQREUG N72LBPL13RRY9FS5HX8I1ANI6 DRJUT1M0G2067IR KKLQBX2');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('QJUAYVLVUTVY9J2FFI9NB2OOILRU05U012OF56C WEXJTCD1XF014N8I 5YFS49E', 'VVFQC0K1N5O1HYQ15GDMJNU2T57V7FFXWO8VNGN5XKXSV E3T163JJM23YJ85K1D', 'YLXKF0CMDCN513RRIWDB4P3LE1KB9I2QQR7QASJ5LUL4V4J2E1323V3L1936C3RI', 'DQB5E2AT2NTWO76ORDX4OIU29IUIRKEKJ628WFTWM7GE53LEUUDXMHT62W 8KJUK', 'I5M 5YAOGRAXYIHG4EODFSLUJWOGXXIYDY03VK1220IP3TMVWAGR4INX0E492GCC', 'IVQ 6OAIW5O2AD9HPYOKHJSKT1E6P0RIE0D61S2V4XT86 33T1X4GG99FGHYV2NK', '57RCBW1N W0KF3UG6F5C5304KN18Y8CDWLWQKRYDHEFSLUPJBUBY32841XH9WGHO');
+insert into genres (genre_id, genre_name) values (4, 'LQO6BBM22V579X5M 9R0UXN7BON9T2PAL S9R548W4TDYUTWNMWPETDAO1 D8WXO');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('6AY4C6Q GEY0QKWK0FFSPXTK 8JL326J7IN9T82F2LVJ3W7UFPAJCS OXSS7AQD9', 'IEX3KQV8IN38BCG22KFMKDHKA64IS5EREO8H0CP1TGH4O4J16CYPQ95WNALIWVG6', 'HEEP2FE68CMTTXKFDF56HTHL1QQBOHXAYMQEUCWQ2HEKRYHRUHRYACFTXES69BKX', '8DCBBQDRP9XQEIFERXR176UDGOYD9C8GE4A CXXO4F76WMMYO0WTMBOHWI 1WO94', '8MB5FR8XR1UP3A34P4E 051FRX2EE9K XO3LR9S D03ACBCX6J2SEFCKA1KEGLNM', 'SSLT580KNN0MLUS5Y2N40G6B4GYE7WKYR736BSQH7SHWTPSFBI77LHF02V3VPN06', '0PRRG986O5GEM EL5XX5BOCWXL2FT0QV4CBP1IKL272PG4XUXDYE15EJ 4HUF3 4');
+insert into genres (genre_id, genre_name) values (19, 'DESDP35OO0K8J5LV8Y7LVCM55V5EO Y8DKKWXDASVKRL95XC92NICPX9C8IXNX6P');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('OXPK6XDH2AJNI14RLUTF0WMV4XSCB0GWEVBTWSMR RRYNXKIWDRHQ9LQ6HIT HQ1', 'GKP Q494KBGUYP9WW8RT0N3OEHRREMPIIXUB4KWB4QH89CUOLQYR9LAFW5IYHCSN', '140 WJOJVTM3GR JIWCHITIBS6CT38NYTOCUPHSXSCTCOCS87BX1CXMFSW07R AH', 'JHFW5E2LS2I06SPNL15WGQ1A9NV34YWYKMU7TSSXJMYTS4DUBOR1FDXBP26K3SNL', 'CTG9GHLF6I9PK7EC58STTIKRWMCGB3RLHIG7VO3FLF4OF8H9TP2RLWUWMIJ8MFKP', ' 165MWIPUT O8AQWE5K5XAA7ICR6H4O86YMBAL5EQ66IS1X1MBJQ7GJ80IAWCTOT', '8OTT2R21JE66 NU3C4PAOBYNUI028YMJCKTU3XEMI2CWV0UMA38UARXXPO6DT6DT');
+insert into genres (genre_id, genre_name) values (9, '152AOY5MYIAXA G0QFWGSMS6M68C9EESX6JBXM6QQS7979UE3H536N WUPNITNML');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('KXX2XAKF3RDWXGNPBA6HAIJGQJUTJ2 K2I8EFPC LW5ERHT N0SAK8UD2DCY0LA6', 'NKNKTMOAJK2ASXYFISKBPU109IAF1HG EGG1EBHYP3N54EBH989HMWAM4350N67Y', '0A8TQ1 62O1K9KNGLSP5HFGVDMKBP2L65XX2W6DJV6RQR0SNOVJT8OCKNULFEWV0', 'HIGT0WQIIM7 VT9GNX2CTKS3QMIAH6J HUH AKW00XMRQHG40EJLWSDW1U VW9G0', 'DLHGN KB8AYYRHVRC91KJEOHYHK7QICJOYE0DPP91QCYTF6M29JPNY842QTA59FO', 'SFS1USHAX180L11LPNNTB 7UYEUKRRUHTNJUXNIXCLIPGBOK4NMV4WFBMJYQG3C9', '3VNSQHNXO 0R48BIRWDK 4WF6682FDKNNI4EHGCI74WA1RKOTFT8Q5D38HAY9WBQ');
+insert into genres (genre_id, genre_name) values (5, '3T16QYCQ6VR6HSHAEXC2XIAP7L807HFVJ5CEVKBP1RTJDG3JNODQA6TIBH LHKLU');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('ILFAMQRKTPOVTWXVQ7T0DN6LNA8RIAEE06CE5EO9OS0AFAVSWU8WUWJBPMJ6IQ08', 'P9SYA1XK2K9J5N4J4DRGL68K6VPHHYA4WJUG6ON6SV6QKS3JTR6RBDWRY5AKC0RP', 'OIWG435FTOELFQTH29LY2T55T C1 17XM5VJEC9M5Q9FK8SKM 0969HUNAL29JYH', 'CM83XNF5 UIJUH5 JY6VEEV144FGO39SOE41CQ7866INAIROPFLQFPPPQT59EFGS', 'XE1ILEOE 42G   EUJXGFTD7KAV1NL8AX17JLSFJFJHCJRCY86JGG9SAR09D2FSJ', '1GH4350SKIE1COYKS 15C80QGFA5133FX0SL3PJ5B35GMPNSEOKNHFA THS KWM6', 'LOLXQGERR1VRXIS9SQPTOTP2M5EQJI637LEQV9TB LRB3FIYSH7 B6MQXNE0710N');
+insert into genres (genre_id, genre_name) values (14, 'FSR97II 6HEQCLMTS0UU72MRV5FI5MUPL8Y4QSLABWEQTRNMT88ASTCB1782XY9A');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('JHWHAY9NN01H034I13SX5LLVWXTATH4H7XBO2C8 PWTSKUH1XUPOFIK8H8 RUT8V', ' T2OTE7XSJ6QFOMGKILG P54RDBCKMUO6U JHRNNQ0 C3Q57Y FKTE 0SFKR1 80', '05RV29A S HW9ALJKWFVMI56OV0DCC7MLSEPVA9QFU1FXKM7RYAXFP412L8190K6', 'XS1N7LMBK92JHTJAG0 D3HRM0IQMRT6O6F76BD2JL6613G187M3K7LJKMK0GWAGO', '2 5RXRITARENE0KGX5VN6NHH7BME42A ITATFPM MICVOQGVDEYM7L4OGL1CH5RT', 'A50UX7WEHCYTE60O48H684OXV4Q1JUJWN7NJJAEAOOJ4AG7ER7ASAB1Q0CFC5FLO', '3G4HCW3 M0P1053FNCI8NCQDWDA  RGAHLS1AXCLCKCI1RUWB7TDT99MN8APL7 F');
+insert into genres (genre_id, genre_name) values (16, 'GSXQ709BUPOY3O4WATUM 00C17M44NQPQL554BC9HIW0 G2GESGEDQV8HGL1A4HY');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('K4GID26KJBSUF18R8S8F4MQRFS TA06A1 SE3X2HFNTRDDN61G3DWCI5C90WBWQQ', 'P2HIV8V2ILBB05FU86JQLDNDR8DQFHLUBX6VI3YCBOJUHLTOEPTE4NXJXGP88TU1', 'K5FYWVJXYGFB5E6TROP0A2QCORIEADPC6NR9A41YIAY1D1PXYS8YN6EFFVKUNY2E', '5LWHP3JFSPCBDEQ1XPHN4DOWE13UUX087 SWTP6K9B8H 3 9S8F0FKQ9VT8V9S1D', 'Q VL6TEOKRPOR2WS3I 7DAPU7YWUP9HJLV2J8EQD2JD2FBMI84IR34GQDLGN1XRU', 'L572XT7F P81TUNJ04DIMSFL5B885CHO9CRUE1Y7TWW1URN5DW9OGDW2TJSDTJWD', '0T4KM7MU9KMQ 9HE1QD6L22MI8SSCWEUA4SQT8L4TXVI8TE13NNTTWTJKR3JC8II');
+insert into genres (genre_id, genre_name) values (1, 'XPWMHI5TV1S8HXWUWJVL D4E35BRNQEGLT78HPWMTX3MUS6X61PURFNWVAPNQ96B');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('R11BE0VPDTJQ92LNURS1G0CCQJHES1NN4NKMNGB40H1EO5C033H2UYP3V 4N0W65', 'II PI8NJH HI47CLUC7X1FBKMLHI5L0CRDMII24IW2FVEVOIQI2RXGN6YT5TA8T5', 'V8L0L3ERNTORGWAUAS99YM4SLLXIV819D4L18UGIK18I8YT9XU7ARIW 48I0IMTX', 'HRR0ELPMWWEHKH7EX301294HFFIHHTRHJGEITRCWY5SXRJTTGM61JJ4YWLEA2IA8', '8N8KHYTJDILRI8M9TF8LCEL0EULVBG5MG0UM8S9V0FPG2HPUBI25C33RM38XLCG2', 'T5UUPMD059BUJY8K2WCIX1O1JB7 EKV8Y9E39R0GY9UWQBCSW1KHPHSOBDIWXWRQ', 'FRTA 2NP0O8YEMRH4TX R5HSDW4RLW8RO7WKCPES6TTS5J4SL48WLNWOCDWVSR11');
+insert into genres (genre_id, genre_name) values (7, 'QMDXWM2F3I0X3HUDAWDTF2AFM5KL40KEX41L7I90FV765POMP2SRFOVNXB1359 L');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('WL5JRTS  9PSOS S0NL IE6 B 7R7DYHR3MYT690FFVCKJL4L ICM1DI K3BXK9N', '9YFGB7GC4WS01OC5S76VFCTPJNWNL30SY7DQ4Y3HFLDQKXCYMHWAO20QX1HHP2V8', 'VXV1SMHRRD30MMB68U3B7XWXKUCSHXQ4M9JT85LWD4TKISMVNDDDC9GK50LL7H1A', '6MAUV351UAHHCT54RFI9D11RH4GFWPO3AC7S0G WNU7NYCV44N45LKC0S1S76GYK', 'B6ESPQR2084KPP9AIIF7HTGB LNSKO47S3GK4JKCMBDCR7YDNNM61WFSKCHB2K77', 'WGEFLCM H4W74Q9T116722GBRE7K8AJY TS9S 4LSYX4JEJ5WSYPNWA7Q91YSXRY', '0R I3VCMB3VMTASHIY9FHHJMBA0BOWJXMN7JEE5VFUG7HK66NJNH39SCEYGNRMDW');
+insert into genres (genre_id, genre_name) values (18, '3MGD0AJ5QSAU37GBBL 1K7MTSG9LPJASVLQ7FQ1RY7OV6I WH5M6AI6221GOJVSA');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('3KYVVWMGAG5O0JO68JJJ 951GVEURMLGPCCEF9B7AB4RP5D0MSQABC2UH6LTH7TM', '388HGV3O4P5Q2LDHADKUWO4Q382U41X3RCL4AD YQ8OBHKYWB298E8WH21L483WE', 'I9WUSYOJW77DR2EHBTFI0Q48P8XED HIJFUB833 G0R02T8VOLBVDFXNCP 3QSQN', 'YG KLWV4EN 4SFFEWBD0 8NGAYS9008KYBX77XOLYP4DTEOE8UXPIQO5LKR6RQBH', 'HIENKPF11RMC9VT3SASCGN4QXIL6OP5PXSSP1NSSQM4K2LE5ARO90QUI76XSR9K4', 'J7L86DEY1KO44CL54O5NKRCT5Q87SNOK4A2MIRBT88PSNTCEJG EA89UGWHJS134', 'POWW 6PCL2W97UWUPB34CW3R8P5CUFOMOEEXO0U2 406DA4BW03BDVAGT8YSRD1V');
+insert into genres (genre_id, genre_name) values (13, 'MUX8Q1IIFFHGQXROX1NG2M7X8AHKA1ESEU0BKP C031E2M579FEJ 39REY6SN2QW');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('2QHOE0I719A OO6V5ONROB15JKTLBT9RYRQ5NCY8FCC6LAU9D67UBX2NN4S8OUA7', 'BJRGE3Q0NSDHXX3P0B7QOVP67CUW5OCHSCG0LQU2VIG12HBNGVC43Q1VPDGVWKMG', 'WXP7 IO0T30UYAPM0D14R3IFL4KOQI7E6KU3VHLPH2ERN 3O0H98DQI3EU72YYNW', '56PFJ5T70 ENKEC739X7J 6Q7YEBATJ5UWAGR5TCP7TJ7A6R1PR6VS4A31BM844O', 'EXYQTTDUSQQN3QOGVQRAI5F4O887XI1H6NP61D6L2K7E7M4OQLIQTN8L0B5WQJQC', 'G5BP3FL4UIJDHPP18UG11PVW7RLKFFGEBHSTCJHFSMWVDKIRV7067O87IHDLMHLS', '8N526QSCH1LQ43 T5VQ MPJK1JDJ03Q4CAPDEMTX6TDGPUI7JLSOIN5VAB3SKMI7');
+insert into genres (genre_id, genre_name) values (6, '3SC0T7YSEDBJ54EQRKUYYD3S DW9QOLALYTB3VNCECMG625 OAS273424GI9S88U');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('G2LNSN4MAEQ13ND6PV4G4DOBFBPJD06AAC0DHJHVK74WVN5QOP7 2MVGSJ01T44T', 'G9QVTC6112VJMI23JYTL1N8P 94N3N8BLU1PLYF0EYSW2J7BXRVX4RUJH94I 7HS', '8MG1PYLXF6QF24CS0EKF0104C1F SHWP3CDQT2YPJ94CT926LAN2KN9VH7VFRHR3', ' 050PWXKPS7YTMSWR1 NBREMB9V98C830XM6V4WW67TMJQBI7XAXM46  Q76G2DY', '5GUTMD6VNI74CUQ719A00TIM2PNB5H374UKJL1S1INY2LDFP6V5YJPYC3RR1MANN', 'T2Q VT9I9E62LNTGJ4O3UOW9D4PHIBL3SCFP0B7XC78W3GQ6JRVNGIGOSTC 6SQO', 'X51HORGDHMVBXKHEANUCDSKSI2077SKYIHVG5GLMABAUHYB1X3IOPYHFN3IS3U0R');
+insert into genres (genre_id, genre_name) values (2, 'SBERG0 3P44R0VPHJWPI3JX1V3MNQHVOX2C1KCBH62IF624KE4F 5G 6M UP7V14');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('YOLD8DDSNF41ARH9LD20YO838WINHC62LQ6DGGCFKCYR5G5GSCJTQF4T3H7XCQCP', 'QM85WFLD1A3XY1LHO1CM354OP68H47E7UUND0I4VKX8NNUHCAUT7UDEMTUDGUA93', 'U6G98EHQ80B6 UNG3MYV48HUGEYLJPT21V 2FM1XBRRE3DPICWCBCAEHW947FDRU', 'JTX6WHM29A33IX078S58HACVX6IBWHO2V79B4I TVJ7NVO0L6TPYMTML4PVGK2Y7', 'N4ULEIKVO XE4TPM2TW3MK8T9CH3UU9QF4J1S8J8F4SDLO3EO DRSOSKEQD 0E A', 'CGHYS1FUNQ1I1UU5WKYPWUMR9V9F 257J1DKMJWSTG5DDEXN51AP1R6HDCU0D6 O', 'A8CGLP8SUIDYPT3AM6W4Q6LLS3807X2U2HY85HX4SVWEJR67BC W7NL6D4S1PSXR');
+insert into genres (genre_id, genre_name) values (3, 'RW8X77XT35FAQ0IWYEFDB8183VXNWG05NFIJVS0S19HIHPJLVKHL4IEM5APYONM6');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('UCUW6AD04F96JLNHLW6N2AV4S7253DMO6GI I32FQYOXQM6WUJ41WL3PMJF C8VE', 'P8NS9RQYBT6Q065J7WIDKQMNIF1H4E0NN2QVJHHH7DN9P4DVSCE5WLYRR7Y8K9PB', 'QCU J3WR2P723LSHCLHXMHTO03NCOPN4WQSGUIAL1AOK4LK7BLU48WJJNQKSFQSW', 'SR3HGYH05572BX9K5IM5U2F03XDYCCNUI2ERYKADYTW348QJQ0TCBDJ71D8UQ4HN', 'UGFUFP6H4ET3WF0E9S5XVBG67JO3E0AXGA070C02KF776GLLP049P87YKE17A2H6', 'RELR8C0Y29TWWHAX4R 4HY3FRGJU1PC911FJ7 LJR TVCCQP TM44KE015XF27XF', 'PITKPB00L7B5946BE T X0Q873TEOP5MF  RHK8VD2EHMCG1QE4CH3DY6DJD7KU ');
+insert into genres (genre_id, genre_name) values (8, 'A8BUOYNGTSE5HNOAN6CV17DOEECC3T 0S5USH1JKC6QR GQ9I721CTWK2V7DREEI');
 
-insert into advertiser_data (advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_type, advertiser_registration_number, advertiser_address) values ('A07YNYJVPHM34UYAW40VSSYX2H0KSDJ68UN3F6J8PXEC75AMED2C3HW1L9DA982V', 'D9YKRW22T YHKFCR6L9DJU K2IPD7K5J0H0UK1TGRRHGDIH5GBLMKMRQ66VYK5YB', '3YLPU7F0JIWF7TXV93G504U7TK6O0E1KUCJ57IU8YQA63PPI71B4CHKD2EB6TP7Y', 'IX9WXCGV4LKNFQ9AY6FMC8CW9U0ETVLE7H2CTNR1M RG4P O3CL8SAEJ5DT56 YT', 'WVQMCPP3QY 8F5COPMKX4WS8W967QWUI68GTU KJHNMLD2TP3TMCP 9IAEFP2X5L', 'YENT4EG7WO2W2W8 YOLA35NF41G9V4CWUFNMDBJ3CT0OOM4W3ISN6PHD38XBFX7V', 'VWCB KOCPJ5DDP WFP07K322VDEOR0UP23NI2DUC6D4HHYEG18 BICWIESWRGDVM');
+insert into genres (genre_id, genre_name) values (10, 'KUPHDO6 28FY1 1DQKOU57XFD1WPO0E BXO4AJ4456ARFQ835VQPIAPVAIQ0YJ16');
 
-insert into movies_actors (movie_name, actor_name) values ('ERPL9PWVUEK67TALT2T2KDKLSN6DQJNNWXLLFNAPD6128EKPUIC6U94164T1BH8B', '5LTHFM8AXNS4A7DNB 2ALFEO94RGA8FTP1689U1MJRQJQ1D7G3SOTQN5DPG S1DO');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (5, 7, 'CUH7X568WDN6BN0H6DVYJHOVGEHTQRIWMMTYCWRST3LBEYVU7RTE QM1N6B1GTV1');
 
-insert into movies_actors (movie_name, actor_name) values ('16NCYMRWUUVONRVSH252RACASYR 83U27TB8OF7SWGASO4RFYWPJCAXDNMCTA2Q3', 'NI22AS4IUW8K8WBSCM6751UUXYT65M5YXT5YY877DAYSQPR9VSHCT3TV5P2X293R');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (3, 16, '93RXUW8PRVYJW34R0WDEUY9MASKXY1GHUBPMP2C FA 6MYAVXNMQHS2G54OC8LIB');
 
-insert into movies_actors (movie_name, actor_name) values ('UH0UWT8K2LRU93THBTJIAA19ONHROB4NR2Y27CE0H95  VUT7FQ39880EGAI5DFI', 'RBPWG5KM5MUKDLH0TO3CHYD WHBRO6MSHE458 GMUJDO9P0F8IMW36K01DBLB IQ');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (1, 19, 'UTW515I1 O0YX1CLBC014HW188FS1YQIDYPPMCDM2HA4U7JCMGDOBIBRHAXEV4Y8');
 
-insert into movies_actors (movie_name, actor_name) values ('S0 FF7A8E9OGEV2W1Q3T21N8RSC00EEDS17BEJ3AUJDFWADQ66N T2VK8L9AOU6H', '9UMOX0FL0Y1M5WBXWSUDLJHH16KM4ECAON9PXIU4E217TBXE68942MXQAUSJJ O1');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (16, 0, 'L8YLBTOPXW8NAJPL  TTBUYKU5BNHK5WA93IWMVLRJPCGTIT3WMTDCTPNCTQQV5F');
 
-insert into movies_actors (movie_name, actor_name) values ('41K34AVTG7AWKD3UFY8B5RI HR X7O342FTXWQHMP3IYYURAKS1 9RD45X323247', 'FDLH3JKSVIU2MHWCJ0D5WPGXX RVXI1 1MG4F47 SBQMG6TV7088IB4R1HED5RT ');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (11, 3, 'NTFESOF6OIFGN1BIW CYYO043FXURWTBCMCH8YCOWXUHOO670I1BDIHWLJH87531');
 
-insert into movies_actors (movie_name, actor_name) values ('A5INHKR MUHOAUYBXQ MPW0F23XDD3D7H1CX3N UNH9VSL33I7UXO49L4MQD79YE', 'N57UU 4OTU N5VRUWS53BW 2I1UD0G84PNN5JD VAQX9HHEB725SKSTT0RSRJ7CD');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (9, 4, '1XNTOVB3B06E1IW4EY9X GE 1A5TVCEXJV5X0XF9CKGDJ0LGOHPTD8KWMPPA1EPU');
 
-insert into movies_actors (movie_name, actor_name) values ('MOEDANDA00P BCEXHL7JI5YP MWHVDXYDHDPTFTFGILK8ABWWP1BDO66FSY5XRNT', ' 5L45VLTKLX4TKPHXCMAIB5RYGHVJGSL2P8AQS9OUF9 VB CNR2H0A8KQXEM9WYO');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (17, 8, 'CCGRBB4XW4HVRJ 7 6 R6571Y1CV745JJJF9JG1IOSQQICE9DJE711SFKR06F6B ');
 
-insert into movies_actors (movie_name, actor_name) values ('3U62P9L44HMHXDH6IW4FF5IFL1L6OMW9K443W TMJWQK2HW XB1GQ4FO2K19 PF8', 'B9SA1DKKX2TA423Y0IVTR4J7G1SB0DP 3Y0CUAEX8JIT1HNPJU 1J05RH5ALUTLF');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (15, 15, 'ENTOWMIRO4ONGB1G2DHNK65KRMVLYL89CGNNPG1QDEM9S5U54RC1S0K78ACBOX1C');
 
-insert into movies_actors (movie_name, actor_name) values ('CFJDK92 HJDQOIUN0GP27MKX4P42IV24XPNFU7ICBYYMW7K0I97JV6CK207WD06A', '7NHVLG49XVMDWQAUH12W VFQVQST65KC8 20HYTUH0SRR47LABH871VUMLKDJGRH');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (18, 10, 'OU6N82X9E 4UX41N5VLPRSHGL0GO2W7CBE4R3B9OF1FG1 4TQCW4N5 0IDCE8YGF');
 
-insert into movies_actors (movie_name, actor_name) values ('EWXL9RTKXAJ7JNAG UANCKBPOSNWLUGHKF02FERWN5ACYSR8EKXN27SKPP1F3WON', '4N1H JQ0V5XUKWVTBTWE58CWRRPG4FNLCCUQ4IHB 5XY42VEO0KR7N7UT901FVJN');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (10, 14, 'ID4 05 C UO3NFLL4PIDAUEEX  1WMYB6K8SOG4D2ARALNK8XN4K5V2NW6  D64G');
 
-insert into movies_actors (movie_name, actor_name) values ('PQDJWO01XRN3VS79M7QTJ EMNBRDHK2CD6BRD52E8Q594ERIEQ3S8J9EEBN0KX7H', '6FW3F96YDXREJV4JT9WXFO5ANL9EEAC1ELKGQ9K26RYFEDBO7PVU9S2IUSOCDB S');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (0, 5, 'XH4OO7UM972WOWADHFQ9YCNHW17BGWMMGV2Q4TBFOADQ7893GA3V5CYTC3NKGYFX');
 
-insert into movies_actors (movie_name, actor_name) values ('KOPSW 4M6HK3QHE35VJ452QW79RM127BPDOK3E2WIVFQODT1YKLNDXW36D8HTJEH', 'DVSXN9HI709AHU0FQDKNHLYSDTLEP2Y19VULA9K7MXDXXUFJWBCL1W6008MKGWIT');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (13, 12, 'D8CBPQ11T03482IM2FYX RXFS9KVB9FNT X0HU7IIJDSG9NYT800IMS2G UVCPGO');
 
-insert into movies_actors (movie_name, actor_name) values ('WC8J6AGWTDK26X88TMCMJG36HCE4 19HJX5329PLMYRR6GGYUCLNV3CBKLLP8E93', 'P OHA9918V7XFGL CKSB9D0449QQH95C9O06LT780QLW4X6LU TU5T3O 9UOK8H1');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (7, 2, '4 YWFAMKR6HC9FMNAI9WFAYROHKLU6D231M1UJ2012H7SQ2 LEDTY2GUFAJXP5A7');
 
-insert into movies_actors (movie_name, actor_name) values ('2YA1XHX5DK9UPLNU ANQMBL9M16VXFH0UHYC33W2FK1O1OXM3GDQUI5OA6SE2TH2', 'OXQ95AU2I90ERR8Q5HS1OAI3UTVN5RTFE5BSSKXLY4GHCVK Q6S5JYC83S7VRKOG');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (4, 1, 'CNI8HXF0S7VF6RH8NM709BGDI2  8LRCI MSGHKRR6E5PABNGAV5N9 LKPJV6O 2');
 
-insert into movies_actors (movie_name, actor_name) values (' 2JMPWRWFI0Y2EG7KTOD8ODJSWVDFD5KFWWKHOHYBJI7 7Y1GDSKG7VJPSNUT076', '42VUB15B2VHLH0G71AI61F36PGRNTS9BMLL2LTRT7HYCW08A0COQON57W UDKVOB');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (6, 17, 'MKAKS92XK51GV0 QD6873Q0AN6S74KM2S4BTXBKSBT8R6LIIQDVEQ0BB3YADCCNE');
 
-insert into movies_actors (movie_name, actor_name) values ('555NHTI07EXAE803S0 H83F81REN6CYUHHCVLUXIOXT4BOQ2620TOUVB0MLRHIYE', 'DIVG36UFT230T12F1WI7FF4UWNU5S3QRARM6UK9P4DAV1NMIYK7NBADT CMXJH59');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (19, 6, '10SM7O9WQQ1JT1PAI6BKG7X4BFNMI0QUSM69C250IVUVQ6VGEXGUDQRSAITQSOBE');
 
-insert into movies_actors (movie_name, actor_name) values ('54E013YJ6HULYHUJDKX65D6JTUJD PWON0CUXJXIN56Q0OTBBM8XC9XB7NX M DG', '9KBTNWAOXNQYSBJUKRD7HPQWU1WMI3DSLN9EYY08EBUV8GGELCQ81JKOI4W0QL G');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (8, 18, 'P3T1QHJ3VBNB4QMRK9KOAJHRCNBOM5EO0WR9PXM155T165JDHQ4LD7D 3K 2IGYL');
 
-insert into movies_actors (movie_name, actor_name) values ('XVU7AUPSSUFEIW2WQFY3VTA4QD25NETAOYGUGH7NQ1PWFGCS1KX000S59F1TJJ13', 'EQIPMIH10OV3MLQPIH0725PD1A84FQGWVMOMW25XKWJE7NKUMG5KVDON4PI 0P7F');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (12, 11, 'UHE1QVOUFR2T14 4D9GHDS8CSPT8NKXX70H4OPTDS5B3QEDQ5W7W1M0W HRBDWKO');
 
-insert into movies_actors (movie_name, actor_name) values ('NOBED14DIGEUKQ35 C TC6HNY62V1MBKB0B3SXYLWUCWCTXV93NWYUEQAH2QFY2R', 'JQ1S1STVXV5GBWFJI7H9HNNWL9ACBW0 FAF8FJCWNGNW7B0E1CO 546910T1GMIL');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (2, 9, 'WP1WGCB37O8V11PMEMXR5TBCIQII U2WDKLFCU1L5AYT3XP6IJ 3ASV78WBL0R6A');
 
-insert into movies_actors (movie_name, actor_name) values ('NQY9S G 8EQFGC5Y1K1BD44OBSHPQVE4KI2BTJPKW8I1X0KJSFVX ICK1IONY99W', '6BWO3F40BVXHTHKQBQ82GJ YEWYNL6NXC9JKLSTOGS2X3XE2DPJSPG5TMNP FQV9');
+insert into cinema_room (cinema_room_number, cinema_room_type, cinema_room_projector_type) values (14, 13, 'DNUA0DLMP78FI 7GOR5CJF5DNWOI411A1X5UFUCRG6OIK76429QJ52WNTKG7UE66');
 
-insert into movies_studios (movie_name, studio_name) values ('ERPL9PWVUEK67TALT2T2KDKLSN6DQJNNWXLLFNAPD6128EKPUIC6U94164T1BH8B', 'WF3MT1IKIDMYUD1R H8B3D75U61XUG1 BU2C5BNJ4ADQWKVGUP01XOVYH5FP6H5U');
+insert into movies_countries (country_id, movie_id) values (2, 13);
 
-insert into movies_studios (movie_name, studio_name) values ('16NCYMRWUUVONRVSH252RACASYR 83U27TB8OF7SWGASO4RFYWPJCAXDNMCTA2Q3', 'I6FWAH1FQEIAW08 J4Y1YTN71 3D9NI07VQR7J 77H5ROUX09U853XKES1SGJ2PD');
+insert into movies_countries (country_id, movie_id) values (5, 13);
 
-insert into movies_studios (movie_name, studio_name) values ('UH0UWT8K2LRU93THBTJIAA19ONHROB4NR2Y27CE0H95  VUT7FQ39880EGAI5DFI', '79NETSI1 E2KSLYC8F6HJHPIJR5QPWCOSLBXAUK7IG0XYSGSESMWIQJ5 Y2LYBJ6');
+insert into movies_countries (country_id, movie_id) values (3, 13);
 
-insert into movies_studios (movie_name, studio_name) values ('S0 FF7A8E9OGEV2W1Q3T21N8RSC00EEDS17BEJ3AUJDFWADQ66N T2VK8L9AOU6H', 'S 254A0CFHLLMIQ6HPWPA8HS59P5ANGLNJDT20AVTQ4WQWRLDK5 IU7FJXN4R0RS');
+insert into movies_countries (country_id, movie_id) values (11, 13);
 
-insert into movies_studios (movie_name, studio_name) values ('41K34AVTG7AWKD3UFY8B5RI HR X7O342FTXWQHMP3IYYURAKS1 9RD45X323247', 'QE6ESBRUMNNPC1S GYX9X 9GN2PHRIHIGYT8WEJDXYWRKI3LVIOWQWPVMUOX3LS8');
+insert into movies_countries (country_id, movie_id) values (16, 13);
 
-insert into movies_studios (movie_name, studio_name) values ('A5INHKR MUHOAUYBXQ MPW0F23XDD3D7H1CX3N UNH9VSL33I7UXO49L4MQD79YE', 'J5B 1641G8WLKJ7KJD21IQRCN136PM6T5GP7PK P4FRB27KCLN46RBNNY9701N8S');
+insert into movies_countries (country_id, movie_id) values (19, 13);
 
-insert into movies_studios (movie_name, studio_name) values ('MOEDANDA00P BCEXHL7JI5YP MWHVDXYDHDPTFTFGILK8ABWWP1BDO66FSY5XRNT', '5U9UD1IC5BV028YGIN96GVOQ8VC5UGM0YO4CKKR 2ED0QEUGQ2GCGM2NW3 CWK03');
+insert into movies_countries (country_id, movie_id) values (9, 13);
 
-insert into movies_studios (movie_name, studio_name) values ('3U62P9L44HMHXDH6IW4FF5IFL1L6OMW9K443W TMJWQK2HW XB1GQ4FO2K19 PF8', ' 20TDP3FS4F6NJ0M8WVKGE2IS9RLERF 86MN0T9QU 7O2R4 V2D6XYDNGUAVK1 E');
+insert into movies_countries (country_id, movie_id) values (0, 13);
 
-insert into movies_studios (movie_name, studio_name) values ('CFJDK92 HJDQOIUN0GP27MKX4P42IV24XPNFU7ICBYYMW7K0I97JV6CK207WD06A', 'UE3TQ6XJRN7FL S HVQJDDJH 6AJ0VQFTEB CD2194YNXHYPA5M 7PC8 01 XC7 ');
+insert into movies_countries (country_id, movie_id) values (12, 13);
 
-insert into movies_studios (movie_name, studio_name) values ('EWXL9RTKXAJ7JNAG UANCKBPOSNWLUGHKF02FERWN5ACYSR8EKXN27SKPP1F3WON', 'HDB25O 8L7RWB 8GXT1N9GMDCST5X9WM8QO5MY0P3M3A96MFATKVQMFQQPCSUFRY');
+insert into movies_countries (country_id, movie_id) values (1, 13);
 
-insert into movies_studios (movie_name, studio_name) values ('PQDJWO01XRN3VS79M7QTJ EMNBRDHK2CD6BRD52E8Q594ERIEQ3S8J9EEBN0KX7H', '1VULVJ51P3CT1NYGN585UEMWCDJJR7 DHS2 VO9PLOSIOU9OC97AGSHP0WUJ9AFL');
+insert into movies_countries (country_id, movie_id) values (14, 13);
 
-insert into movies_studios (movie_name, studio_name) values ('KOPSW 4M6HK3QHE35VJ452QW79RM127BPDOK3E2WIVFQODT1YKLNDXW36D8HTJEH', 'XWQVH4M R5 IJ1L676TQMB8374E3RJ5S VHXIKPVPOQN0EDT3YJ70V  4CK9RITJ');
+insert into movies_countries (country_id, movie_id) values (8, 13);
 
-insert into movies_studios (movie_name, studio_name) values ('WC8J6AGWTDK26X88TMCMJG36HCE4 19HJX5329PLMYRR6GGYUCLNV3CBKLLP8E93', 'X47D4XKECILLUQ4HX7VW7JPITXA3XTEHM5LYHP41QJK40E35SE52S Q3 3I J5VM');
+insert into movies_countries (country_id, movie_id) values (17, 13);
 
-insert into movies_studios (movie_name, studio_name) values ('2YA1XHX5DK9UPLNU ANQMBL9M16VXFH0UHYC33W2FK1O1OXM3GDQUI5OA6SE2TH2', 'B79E7ERXS29YVTPM1LTNRG4G3C0FQTG4 0QPIQM58GCMF6456LQJ8P1YFDYNY22E');
+insert into movies_countries (country_id, movie_id) values (4, 13);
 
-insert into movies_studios (movie_name, studio_name) values (' 2JMPWRWFI0Y2EG7KTOD8ODJSWVDFD5KFWWKHOHYBJI7 7Y1GDSKG7VJPSNUT076', 'VQDTCTBPAUKF3F3K316N8R2UAB1RNTS1XVADISB1RHAQ DDDG5U9UNQ7GAQ8QNP8');
+insert into movies_countries (country_id, movie_id) values (6, 13);
 
-insert into movies_studios (movie_name, studio_name) values ('555NHTI07EXAE803S0 H83F81REN6CYUHHCVLUXIOXT4BOQ2620TOUVB0MLRHIYE', ' XUTMJ9QXOYHFJR  WE1GO BSKXGWTW63QX8 GGJ6AEGLVYLR0RORL6R2RE7CYQO');
+insert into movies_countries (country_id, movie_id) values (15, 13);
 
-insert into movies_studios (movie_name, studio_name) values ('54E013YJ6HULYHUJDKX65D6JTUJD PWON0CUXJXIN56Q0OTBBM8XC9XB7NX M DG', 'JFHD2J8CAUIUUS PFT93JUM4FA2X S02IF0EGHSW38O0O35KL8HO9GO5OH5IL0TY');
+insert into movies_countries (country_id, movie_id) values (13, 13);
 
-insert into movies_studios (movie_name, studio_name) values ('XVU7AUPSSUFEIW2WQFY3VTA4QD25NETAOYGUGH7NQ1PWFGCS1KX000S59F1TJJ13', '2ITMLW6QIEHY1INB1U5DC Y2259 LL3W7RXQRQPL JV61JJ9BECVI4E8QDJLKA8F');
+insert into movies_countries (country_id, movie_id) values (7, 13);
 
-insert into movies_studios (movie_name, studio_name) values ('NOBED14DIGEUKQ35 C TC6HNY62V1MBKB0B3SXYLWUCWCTXV93NWYUEQAH2QFY2R', 'SBSRXLG9MSG5LFDCJG0XFCT40SGO1M21 1AQH8NQQ8HGMILLIIRIET3R TA8SQG8');
+insert into movies_countries (country_id, movie_id) values (18, 13);
 
-insert into movies_studios (movie_name, studio_name) values ('NQY9S G 8EQFGC5Y1K1BD44OBSHPQVE4KI2BTJPKW8I1X0KJSFVX ICK1IONY99W', 'AM8N7HKXXMR5KTLJWL0L51F44FMJ754R7WEY9IHG674INE50EHA8JG8EFEGOLMK2');
+insert into movies_countries (country_id, movie_id) values (10, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (5, 'YOLD8DDSNF41ARH9LD20YO838WINHC62LQ6DGGCFKCYR5G5GSCJTQF4T3H7XCQCP', '11:44:29', '4N28LBH5CF3AE62NGJ4QVB2WG UVD1K5783OR9NNT15DA265LKTV008SEJX66IRY', '99 W50U8VKXKEY39DP33W2BS7AL59JDUTQ974P7BE9VRDQ834GET5Y M1OT3H11P', 'ORK1376U6CCAE3R5J3PWJ54T8DP2217PN1QVX6EUCXPDP6RU8Q5YBTB G89370CW');
+insert into movies_genres (genre_id, movie_id) values (15, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (8, 'ILFAMQRKTPOVTWXVQ7T0DN6LNA8RIAEE06CE5EO9OS0AFAVSWU8WUWJBPMJ6IQ08', '1:0:5', '86GC Q8187L3N88FBKDIQ6XW6VKBN3PEMY0IO78YRNAGQ1LC5SHLGDEDRGM291FP', 'CPD0X4 CX50KPDTX2RPO44OJG4J 5Q0BOTPNDJCYKPWK073NR6NWOLX5J6H5U4IS', 'P5DEWGK7PDFSKM6LMDSXO4YJGGONTKJDCSDVEI1J61PDIMCIQNOYBISD5PLTQ4H9');
+insert into movies_genres (genre_id, movie_id) values (12, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (17, 'JHWHAY9NN01H034I13SX5LLVWXTATH4H7XBO2C8 PWTSKUH1XUPOFIK8H8 RUT8V', '13:17:24', '52A6ISM90CNJ3 I9URQINBN93XUN7LP6OH7P1SB9KVRX1C51O3PYWWVB1XPHK3DS', '93CMNB1675I68LTBB2GHM26TK55T3H1K60Y28XNQDAP2A2B45YJ6JWV1QGJSBE6A', 'UYVV7WHLG4691Y3XWLYI3FDAFS86WHV7MDNJVSGGV2HL0IEWYEJ1I0W17CW0NCUP');
+insert into movies_genres (genre_id, movie_id) values (11, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (6, 'KXX2XAKF3RDWXGNPBA6HAIJGQJUTJ2 K2I8EFPC LW5ERHT N0SAK8UD2DCY0LA6', '7:10:44', '5TIJK4AJGLW2JJH0TY6PU N41GSAFHL5Q07KGTI 6X8XH2F3SQ886IW9B4TH88G5', 'CLQNOB HSWLHMOAJLLD9W8QPOD7HVNKIJYT8UYLNG3PWUUMJSQLHDCX97PON6KR5', '3DMA2IN 0HACQGKJMHNVN15CXW6FKC6IXW5FHNPEI2FCGIC S67QRAFFLHYMUDNP');
+insert into movies_genres (genre_id, movie_id) values (0, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (11, 'BNI34JT77OVGCO1MIG 92EH2YDYV IYPODA7CWRFF9D6 0PH54QTBGOIXY71QRN8', '7:54:1', '55ONN5QMN3TIUYXJ3TMOQVV0B509AN8AUHL0WCB2G75Y5WSLNJB6QFT76MO084QR', 'WL5J1E9OJF3DKEYXD5HFGBF13CQS GGKSSMY3DORBT1KSH4LFX8A7VPSX7U X11H', '4TW6MMQCQRA JS4JGFACUYFYATNR47UUQMKMBXTSSCSJ 9MD6G8P6SCP4DNCFF6N');
+insert into movies_genres (genre_id, movie_id) values (17, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (13, '5W2PIEGPGW4P3TI64UJCF7V6822CGMIFIWJFXIHUGHBT1II27WW XD5TD30UW4L7', '14:43:38', 'O7XFPGCK GFQPHYELS3CQXPBLTMDPE31A35S8CKR6I IXU7L2ASKRQIP10TBVSUG', 'WBI9SVDVIK7Y 9I6T59IN71NX1Q9YR0GQ15SPNNDGTPNNWE6CMJ4R OIHOOSGCA1', 'LWWXIUOMA7W8AX6GJTXIAXHMCONI5T BKR3ALJJL MWMQB6IHE71G2A5J4SI28Y9');
+insert into movies_genres (genre_id, movie_id) values (4, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (14, '6AY4C6Q GEY0QKWK0FFSPXTK 8JL326J7IN9T82F2LVJ3W7UFPAJCS OXSS7AQD9', '14:0:41', 'UWB88R9JEMP81L1IJ925HYVUUGFH B4RTGSNXK8 HTBPG 8TPMC6YPTAWBYJ66KW', 'RV56TNW0SR99R DFP 350O26C5OARP6XD9EUT44NBY5IJQOMRQD24B495YQTIHHC', 'SA9P8J H1GVTRW6KUXGEK92LOAVULWRG9GI 8N8372B1DE8D07GYXHTKPRPY NMI');
+insert into movies_genres (genre_id, movie_id) values (19, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (4, '6AY4C6Q GEY0QKWK0FFSPXTK 8JL326J7IN9T82F2LVJ3W7UFPAJCS OXSS7AQD9', '9:30:26', 'OHMN GWD8D94Q3CCPCW35JTWNN4M9BTDTOV15GWC OUQD4PYGAA18SYIPYP0I5H ', 'DB5GGOYWL0LG2FC5Q 365KV1R8Y0DBWLB3GT55T6LCOU24EWPCUWJ8 CV5MT U5I', 'H5SGXGXMOJJW0285T7GSHDFBQAGQ3MPCOOEIAWNAAM9J YMK2CU9TR1X9UNF 5IB');
+insert into movies_genres (genre_id, movie_id) values (9, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (16, 'WL5JRTS  9PSOS S0NL IE6 B 7R7DYHR3MYT690FFVCKJL4L ICM1DI K3BXK9N', '5:4:3', 'QU8665HX98SF14P 7AXXAU5IXENVIOVTCAUKAOQP9UPUS46BTP2XAQ75ORC8QL62', '3HAUQA7T7JPL8KTVX4P2P69HAW6FEW37K7T704YMXQ3SGRK4CJEX2TTP 2RAFA07', 'YSYU9JQQI5O4O8RI3WMLUNLWDVT17D5O5F28C17F0PO189FGQGQXYVL06CXCTXX8');
+insert into movies_genres (genre_id, movie_id) values (5, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (19, 'K4GID26KJBSUF18R8S8F4MQRFS TA06A1 SE3X2HFNTRDDN61G3DWCI5C90WBWQQ', '10:24:58', 'VM8R2KHS9GWWYXJB49CGNG3NNPLJXIY1BT 7GTO26XMKKAX0KM33ROOJ1TFVK8D6', '48676DV3PARFFCHA03V01Y1RND8DK0IINVXXRFI7BNWR0YVEM1K0SJSMTDGWFU5C', 'IV9XPUVRIM8YS 8GTYU2HCYNSSBFV6AH1DD0WIQYLXAVHEE86DIL ATBKMUCGEI4');
+insert into movies_genres (genre_id, movie_id) values (14, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (1, 'K4GID26KJBSUF18R8S8F4MQRFS TA06A1 SE3X2HFNTRDDN61G3DWCI5C90WBWQQ', '12:42:25', 'Q837KUSOT46NSNVYMQ6JSQUK1B6MUIR7NFSQ4O6M0MS LQA1CV4O0OJ861P5L45Y', 'CD0X0QAOGFAJOY74CQX244 A95CPU5HIGPJEXD A18J SQ1WAI4UFOXWRK4V2HLN', '3RV1BMBFO6M0 0SHU8N66F2K106TPUILB6VUS449W45PQYBABK0J7CA9P2MWJGNT');
+insert into movies_genres (genre_id, movie_id) values (16, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (12, '2QHOE0I719A OO6V5ONROB15JKTLBT9RYRQ5NCY8FCC6LAU9D67UBX2NN4S8OUA7', '1:37:31', '6 L0L1K3IN29HY2CRFS7S9H4SNQDW7IKHSTUSJ6EI79RV21SEO02XUSGXKCMJI0S', 'OMQGVAUU7JHW5DCTDNH3LEAOKA6HQP9T53YFRY8F6SNHNJ58TP M FUY XPWUT9M', 'MK9MYEXX979BHEPTW7U1AMFYPV3Q8PN10MXGG745PA44QDO52C1MX94NHCUMMNB5');
+insert into movies_genres (genre_id, movie_id) values (1, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (3, 'ILFAMQRKTPOVTWXVQ7T0DN6LNA8RIAEE06CE5EO9OS0AFAVSWU8WUWJBPMJ6IQ08', '2:22:4', '0LBNLJBIO50N6AOA9KLO GMDHWSS1YC4OSBOXBQFFGFLRVF 0QQQ 994NCRVLQ9F', '57DB4LRI5R11NWEKYM132WX0 J1NQD01OOLR9OK9RUV 0P2D8MM9S286IODGIJ6E', 'X8 H Q6KNK60SBT6JMG9336K5CEP2A FWDLNYG3IDF4BBVN7GWMCV2BLUEYI055T');
+insert into movies_genres (genre_id, movie_id) values (7, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (18, 'G2LNSN4MAEQ13ND6PV4G4DOBFBPJD06AAC0DHJHVK74WVN5QOP7 2MVGSJ01T44T', '15:22:46', 'JDTTB7281X0FVE8KH2I606O0PPHX7ST3 5QXQKYA55WKUUUDYMVENI1M89H3SSI ', '63WXPTXS0LJ8549LVMN5ALV3IXCIC95SNFEWLYVEQ95FK61GBU22T49D7TXDVGSV', 'RUMEL9EFHYPCFB40TR24W6VC0R37PGB4CFVE5DLT5VTLXI8DTR8RQY35GRRC3MC8');
+insert into movies_genres (genre_id, movie_id) values (18, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (9, 'ILFAMQRKTPOVTWXVQ7T0DN6LNA8RIAEE06CE5EO9OS0AFAVSWU8WUWJBPMJ6IQ08', '6:1:15', '97AQRA277W114QY0KWNO2NKRO8P72U 3V85I9D6WFGNDVQW87HM1W31 V0VGJDAX', 'UTMLVBBPV2SUVA4PIVT47K18EG0UYRYW07YN4A129J1YGO6NDG7S9TIHQE7IJPXB', 'P1R 1PX7FVITB2TEQJ8VX62A3EQ0Q804P5MJLP7RSW2V6USYNG1AVY YBR5USKFV');
+insert into movies_genres (genre_id, movie_id) values (13, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (7, 'KXX2XAKF3RDWXGNPBA6HAIJGQJUTJ2 K2I8EFPC LW5ERHT N0SAK8UD2DCY0LA6', '0:0:0', 'YQRHMA2OCWFP6KRSOX3P6S1F5 MDPP1OUOVJDC1A5D0Y4X ON QGJ0Y2X24EX8F6', '73TY0R9IEIWUJXOLJ7LYFPQTFCYFXUGSWI602DYJXIVAL9EVN8MJM8OO4UWAS9Y3', 'PFR6SGGE4EUV  1XXN9EI1J3639VA7DXSCU6RIGQJ2EVIAJP6OKC1SEGV7T8MQEB');
+insert into movies_genres (genre_id, movie_id) values (6, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (15, 'IPGA4XYFLEU5TSXI7SU9ACB 5WW T753WBFGIIQIVIJL43TQ0I6L7TXQ8X2E2HNG', '4:15:32', 'H0HDFPGFGTSN2RKC1QYX MU3RC9N1FR9HN3WN73AJH9HL256POK1NFB0DIW3GVJL', '1J3R2Y2LTBIW IGC5PFDWETUBKB EOF2TYK0CNRWUCD8P90F GO0AGOEABLT7159', 'JC2HHDCI1M88K28N84MLKN0D0SCMMM0CB6WN MD1S9VGY59YMSIVRN70KDSFYSKL');
+insert into movies_genres (genre_id, movie_id) values (2, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (2, 'UCUW6AD04F96JLNHLW6N2AV4S7253DMO6GI I32FQYOXQM6WUJ41WL3PMJF C8VE', '6:40:23', '79NH7LGU2885QABL4CB6GQYJACB22N84M1M PCG6K7 7C5GFCU4U5 M PCXJ05CB', 'M2XK5FHCG4DQHBK7PJH6T73JG97X1MDXPRV6F6T4TQ3GTW4N1V3W63JWW0LLXQRP', 'YLEP2BOUP9O1QSJ8HOWK PH97865FS0H8CUGAMXJ6JTY66UVXY5DLSQM6WQVQ86A');
+insert into movies_genres (genre_id, movie_id) values (3, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (0, '5W2PIEGPGW4P3TI64UJCF7V6822CGMIFIWJFXIHUGHBT1II27WW XD5TD30UW4L7', '8:43:19', 'DV4NVR5EKQHW3AOVYONKJ9TR GWCWAJB E7B8K5 AERVOMJPDDUJPRIAFFFALRMJ', 'RDRXWAE2YHPJ6QOEWG44UT 1VA6UQ0V2LBBDTKWWJI8BTTTWU54V6OYV2DQ6J34P', 'LGV6BVVKD99J9I0C927M9V0 TN9X5YSWOPH09G77O0E9I4 WPT8IMGXP62VQX1A1');
+insert into movies_genres (genre_id, movie_id) values (8, 13);
 
-insert into ad_videos (ad_video_id, advertiser_name, ad_length, ad_type, ad_show, ad_advertiser) values (10, '5W2PIEGPGW4P3TI64UJCF7V6822CGMIFIWJFXIHUGHBT1II27WW XD5TD30UW4L7', '2:55:51', '4UMYSO5RKSFLQ3KQVO0EDAJK8 FH2MBMQMY5UI7GX 82Q7P8 EGASH1RWS6LI1XP', 'XF7CELS9DWNIISEE7KYH9H0KJ2T831K2YIDJK8TBJ1XI04MGNRJM7DO321EB6F64', 'JV3O6W1B9H4LTL5D5G17KDHA15OSIE7AOYP6I5W9UXCFHC EAXV50TREUIMOL6GG');
+insert into movies_genres (genre_id, movie_id) values (10, 13);
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (4, 'MOEDANDA00P BCEXHL7JI5YP MWHVDXYDHDPTFTFGILK8ABWWP1BDO66FSY5XRNT', 14, 'XHBYT7W94TB99C7T1C7GTI125REDBS8WX48PYP10VBL8YJ4DDLJOY3X0DO CMO84', '1714-3-10', 12);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (5, ' YYLNH69O2F8JVBGSQTYOWDA2MW47CAJ8C06IH296J656P0YQSH 44OH0OO281IT', '4IOC6ED RFLI82Q5GSJYKTFV1BMDXILU8SNT7DNOY6IKPJAISANNO0U40F6JAJO0', 'MCO3KVBR68IJ4NI1SA61OK7 RK61X9DVDDQL1KO2GR8LV2EHSYM53V4SQ5KLS 0F', 'B0RU23MH90VU832P36XG6IM8L87V7TVFSVP YSIT5E66HWEPF7OACOMFMPN 2W2X', 'SV7IR GBEDDARGXX267U4YWLUSP4GONIFDUO9EV7MV53SK4852758590OOU2NPKH', '9NLIDRXY2VGYY189BFAY9H1KANESR3Q8R6C82RUWVC94J7JTXPPDFE HSNS7KX I', 'N1FXNSS5IPJFGLQLR0GAMTIVTUOIIOS HHT8V3M 3KR8X366BRGRKINT QXULXAI');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (8, 'S0 FF7A8E9OGEV2W1Q3T21N8RSC00EEDS17BEJ3AUJDFWADQ66N T2VK8L9AOU6H', 14, 'X93KL0611NSD ME6EVQP0HJXFCF9QFLD8VUQVNK0BITKK83ND2ML5XQWVICLPY5 ', '846-11-3', 15);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (1, 'KTXVKYVPYS1E2PCVW8CMCPUNYTL 7CNYIYUPMWOPN79KGYLHIWXEN3T5NRI15848', 'E5 L8DMGS3PRA7REPLT7QJDYXYR4MBICWBBUG89RJP9 WQQC3CSU7T3WNYDC RA0', 'AU8TMSI0BMQDEF46BI0336 GQC5B11VA1U8HSOGIY2KQI2L1XULP14WGQXOI04CX', 'NGMD9H298E14XU3AMHFB6G5SNAK90RMPGREM57FY1JIQK5QP60AFQI89EXKFG767', 'F2 1WG63G LLHNGXFY9 QNM2MCURT26ON AMVG38BW8C8V4L1WESPN3EC PWXHSF', 'GN5B86W34VGMH4FHJGKLB0FQQF9MJ7RV5VS9KRTHG7AFVB3DQ3KET7FNGRMJYSKW', 'VMEMDA4 G404G0U91FHF3KAYNTYEGBXMKB79MGB2 6YWBN7TCP 0YF H 9OWOKLE');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (1, '3U62P9L44HMHXDH6IW4FF5IFL1L6OMW9K443W TMJWQK2HW XB1GQ4FO2K19 PF8', 4, 'ACFOYQDXXKQMSMGNU0E8HXKXC4FG1BWXPB K6HNTK9N0QLUQ WFA LQVF6ERISDC', '639-6-26', 16);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (6, '91YVR0Y3P05Q7W92NWCBSNMMYG1HMHVM7BAWU3R23NW75HS7 CUWW7 KKUG8EO2P', 'X5PGBNS0AB79B3A7Q200YNN0SMNLDRNOQCO P8OTQ9DQNWKE9S1X3II5S5W5I5SX', 'FGLOJL1DT555L32BLPMTGW3J0786B9A0YJ7RPH0LFYX7C71NOHCW10REK6I4 TWE', 'KSC0 PLBPK16SO8CXDH9S5HH4NIFHA747DKU2IMDVJXHSJ2M1Q5H5X2ATUQJESUE', '1BXSIC9YOQMSJ6I5D795PFGPBENE0NYKIQ9AX8V4E9KXEY1774A71A6DEPP5EMV2', ' B 51GR3WJJK7Q9O7LWE1WOOT54XPAYMMDGEMOHCEL0LOJQJPDJSX292KAVKU6LK', 'AIDE GH1MCLXV83VC2PVCMEHGLQJ5UVN1XL3KJ8T53AX7G273K2HYP3HL4RCNT73');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (9, 'A5INHKR MUHOAUYBXQ MPW0F23XDD3D7H1CX3N UNH9VSL33I7UXO49L4MQD79YE', 12, 'WM5BN47LA1LX1 IN20V RCR3WHQU8B2P23J 4B8VRN28JQEJGL7RJCQKB5P K1Q4', '1384-8-12', 19);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (3, 'SUJUJAVAC9IVQTWSHCKO5LI PFNAEBMBE0MURWX382X NBQGIIILED0G34SR5O1B', 'GHM2YK8CIGUKMTNTO1VK50NBD3JN99XXHVGN0HTMM4NN1BVK7JEDL7N272E7IRV5', 'C3UMP1726R6LGQAG GPON28HSMLU934KB12DAPS262M NJMKT4U2KY3R3UA9V5GW', 'L7TNE IUXN530 0TXIG635GJQWNVOQA9JXN20CQ7W 6AIGAEAW8BELX1U1FOS97A', 'LA2L63W9P FT8M2CK JF3UNJ6R8STTQ9BRF7SVEG FU1KAJRK41B9XAI IUU06PE', 'AMHI32HJFU E0EJ1F4LLYPTKUX0R1QLO4WOARAOLUFA6BA3XIHMQDKH9NSC53CF6', 'X6RFKKV1KPXGYFDKWONKIJ6F3Y2AV8NMYF8FM15EBK1N32KAPYECE94FCUROFH29');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (5, '54E013YJ6HULYHUJDKX65D6JTUJD PWON0CUXJXIN56Q0OTBBM8XC9XB7NX M DG', 19, '7SIM078COW3JAOHTWMSK 0PVVM464NVJNVX XR0WI3PBD9E LFW399LNVJ2UIQ18', '1989-3-18', 13);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (17, 'XM29L0M776XQ2U  2S5MF2BWU8EQ3SY7K9AUFRNIWOUUIP5ME1AIPRP0U8OUAQWC', '0H8OXJPE70SYG7  AL DMLPUV55YGFPUQGQU5X78RT7TDG2BDUQYPWK5H8VRNT7G', 'HG4BCH8TQCW02T38ABTGMEU D9JN7DJ30668B0XIG0NXC0OWDHT1Y1C9HY7YPQY1', '77P44LFCMYXT0AVW7XVOEV14V6ES86 M09A81MWVVKQQ9N4MO29BF4LRU00XPC66', ' 96EE7IJK1Q622YI2B MTN27ICP3RO2BXFSDKOK1JLCQ034SO92K9GVCWBU3X06E', 'U WRMTICYJGGFUGMXXTCRKD2FHNR1TQEDEFE4SHJT5LSB5FQQTKT SFWJGUP3TH1', '8DT265X2LR6FS5CMYD8MXBXO03D 98UPAG9PJPK9SWM OWHXLH004CS32UXL 1SL');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (2, '41K34AVTG7AWKD3UFY8B5RI HR X7O342FTXWQHMP3IYYURAKS1 9RD45X323247', 7, 'SP2LADNH8QW5TUDIS5KHBSTKLCVN3MG0AC40RDE296G54GTB5MGKNOJ65FWLLAU1', '519-10-14', 1);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (14, '2TQC87VW4NGYM1B39QC71SFNHS6BXIHI5YD7SH05T13WUNTHRB7ODW7XWP4J9SRI', 'PCPKL22MRRUJ BB2LD4LOVS919KXU8WAA7ELB6180V6OHQPCDQQ83943NNVRK4AX', 'APPQ Y77SRKB8US8IUAQH62HJKBKIAMMQB2BER59 MBXR1VSPWGIHEO1FYN01UCI', 'VKPYEPVQ05OKAA47FNRQBM6IWDRQAVCBT89UBB71TV7QBQ OEOS67VGGQ7DSCLIS', 'ORX5TK6S4NXBB5BWXFF3LIU821P1XM RAJXKF7VP K5ASISOSEQ 82WTY84WM84N', 'WNJORIIGAW8R01NUGX3RP2SHHG1MW5YKS771A2UXRFP8KW53BHSEHUFXNVCEMLRT', '6V L4Q6UD65MR1 GR4PH8WIT6R810KLQK18P0GAOOT3VKI5YTWXMI75NGAYUEFAJ');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (3, '41K34AVTG7AWKD3UFY8B5RI HR X7O342FTXWQHMP3IYYURAKS1 9RD45X323247', 2, 'H8X4YTR38U4PDVCSWA0POMMPTA95BYVTWIY5I6EU5 94G6AEGJDT2TUDWR6LM512', '1445-2-10', 3);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (7, 'J3HMTPUJFEH7CPAHHH4 0XQEY77F5CQYEEJNC0W9 U38JL5KXAR51LVBSW W3FSR', 'WXQ3883GEX8YIFQYKUL044DYUS625MB39QY7PHQMV 40UWPYQQSYHIN333DO71FQ', '503FK0R2JFB53 UR9RMAUNL2TUI0G7XO1GPNFSW7PH7NNCBFBOJ48LSBL6K1D26D', 'BXM33W68NOAQ8GCJ7LQFTU HM0WWB64EX43OBPQCKGO7UW15VMIGPYE4REAAPOK2', '8LTGJ1LS5IODNMWGPL 6VJLXQW3BUQ0PH6DV2T7LL1GOLUHR FP9HIASEVEP463N', 'ESUIOJXKDFWB9YG0X3CSD3W14U6SRT19K847UAO1Q2E893VU5 4S68XEXM30DR96', 'SCWXEBRCDJAHLJ19HR4H3 9AECNWANTA45D7LRRDSMVYFA8G0OQY3GEYU79Q5OEC');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (12, 'EWXL9RTKXAJ7JNAG UANCKBPOSNWLUGHKF02FERWN5ACYSR8EKXN27SKPP1F3WON', 8, 'T05CM63D YT3EWK5968UHOUHIVFVCCHL7Q2TTH8FMIE8CY9NJKC9KBADP4N25IN9', '942-1-17', 0);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (4, '8BNSXRV8XDKYT4N5QMP835K8SPIMO928KT08R3JAO4L VPBVPA6KYYIG32W0RMGX', 'CPNOQT096EC8W7L6Q5MPWVT56JKJ9CHQCBQG BSYKVWFE3HTQM648FAV774YRV67', 'XAA7YGGXKMF HJ1KL931J4JG91KDBS1TKM0PJHDRV53Y NQKW2U1NYJTXO2V67GF', '4DOY5Q5XH U6ETRPL58PI4F1FUXT0LSN0IFKCHJBTUUWGB 90R4WRCC91XJETBU ', '9S HACS6ID0EI3XK8ECRRW7OQ609WCBQXRK5G44PYGSJRIP5JDK5KF31DU KLGF5', '93EKG3DT0TKICNYDPVCI2 7V1Y4SCER7GPJJRYOIOBMK4L998R7YBK90D4 4B6I2', '7OSB6KGHHPD2Y27QKFR5N7D5K2LXNSP0CC1EY8USO Y2JXX7EWWAK4YUONBYFV6 ');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (7, 'PQDJWO01XRN3VS79M7QTJ EMNBRDHK2CD6BRD52E8Q594ERIEQ3S8J9EEBN0KX7H', 13, '0B1F1SIDIWT1VUUTGBEY5W6XONJXX6KIFYW5RBHTWITMEV8YX 03Y4BXU DLWQSA', '1-1-1', 10);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (8, 'QBEQFR 9GJ0XK8041441N7MY4HBSNFXSTK9VFKL3H573UTQRIOBI7BTUXLN5L1R ', '10UGGEON36TEXANU5TK6H OGKNUG V0 HOE02J4DED 0TDM3A4KFE03Y2DY5GVOE', '5PV7BQQ6AH7AD9OTK07Q4XQTQ66V2OOP4X49BQ9Q CQ2W4X2F3988Y KV4M7RBHQ', 'KF4SFLJ335L1N QJ799617YE1RILNBA0FQ3 PEK1L5TGS0X JUKJRPOTCTD135F4', 'Q80OP4X 2V YL96OX YK2XHVYVLLTW00A34VQB1J4IYWK580433UX79VWL35V8TC', 'VYW2EJ6W9Q5BB753NV5WRQKSRXNR70NIOI67WY1XJ28VG3FXVQVFN1G0NK2S1QSJ', '6BYPNTFSVXX0283QJPLM4AC4PURKFV98F9O  1CH80AUQO39XRXJFTEKDUEH4KQ1');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (14, '54E013YJ6HULYHUJDKX65D6JTUJD PWON0CUXJXIN56Q0OTBBM8XC9XB7NX M DG', 14, 'DTHGSMKH0KDWPPQ6U U7 42KAFF 572OI31E6S9VBEF2F777VQF0Q51PQTIQ9K5K', '1235-6-25', 9);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (18, 'L1SANQQN8RLCCO40OCJW2VC10L6AD720MNJBGSRORJ0OLFVRNW533C9FY 776UP1', '0TUVADUWMRNL1MES7OR203F7YWLO4IM3IJ56SF2QI5KWUV LMTTYPXNTLCE0YKBM', 'B4PGCNH8W1971G97V13CJGTCAGAKMB69GWK1IE3H8DSSUE9U1H53RUL0T0K MI6S', '9VJJB T7DU1UCRC5UC1MGSADP LSWLNWYWS8OTGP39AD46INUKLAKL6Q0QJFP3L1', 'JCAP3YT8I0RFC9MLLL2UVMJ3LGAE4CFUUBQ5WQQ05NSN4TIT6TFU2 EC D55E32S', 'S5IFXQRD7W4HODYQH3PIAMOEVR5M24PS1WOCAO8SHE5I2OGFPF06JYB6HVL7VXJE', 'V5HSOQAV2SVS RGX0Q08KJ4QBQTFFMDS40OVUD78B3D0Y51TG6RJUPJCQ5GLCM0O');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (15, 'ERPL9PWVUEK67TALT2T2KDKLSN6DQJNNWXLLFNAPD6128EKPUIC6U94164T1BH8B', 9, 'K6E 6VXTGBBH4GLAU0XO9H6V Y1UCYH2PXAVEK9E5SI9GL7PEPPIT0KD5JMXSCXD', '1891-10-9', 8);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (11, '6XYTCFP9MTDL80FL05ODYNNUL78VR6D0003EIMS2D2GWOMTD1GBMB7V8AODYEJ6D', 'NBUEKR B2EPRNPR7QTXX4U S5FL4BXEDB8IU2L 2TA19GGRQ7MG08HUETD0J0THO', '946THN4OT1XREKWBWMT5R0ND82T EC25LM01D1BRDK3SWV83PN9WB9N74FSTDN66', '5NMTD8YY EX9GQEI76JETTD5HI4B2EAQMOS2X8GTXT58Y8IVXE2BLUJOKYC6DWKO', 'Q O8JSQG5HHCR72EHP12CNJ WWYYRXHTL7V6E1MAURSK7PK315WUQ690J0XXH3EV', 'VKLKAM2SM56IY8WNXFGY2U IL P1G88P6MLDYTCHMA4RDNEBAVIY6 IQUU0N8COB', '9HBANT9T2K 4W9BADKJN99JA3SX XMFACHF9K9DILTIC9UHTU8UNTVDMPHM5QMGU');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (11, 'PQDJWO01XRN3VS79M7QTJ EMNBRDHK2CD6BRD52E8Q594ERIEQ3S8J9EEBN0KX7H', 19, '88LPDNNX SQ67LLBW4HKWPXHBE0JDK6 9DONKJOWT1EKXVA010L6TDHL8RH9J9E4', '466-12-6', 7);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (2, 'VQ54L 4GY7DVR9S UR8LDQPYB0L1Y4 XASS78GAMCGGJL D6JUUC VGQRMO0USML', 'C19E4EYDF6A1UL4QA48JDPLPCTXYQ81 IA1CGPT DDKC2F3Q1VC CW7KB4CWEEJY', '6YQE9JA70DCPJCPPR83O8SAHS6HEYRMJCR6O56P UD89DHJQ8LNGJGD4LGIBIB52', 'D7F92QS CQS5WFV Q02O7K2YRBT6160BQL9ED0BQUJGCHCPWF8 IJWWLWHVQL6OR', '23C8VKV42CFM90P8PD29EPH6RLG75PX37ISIN52R19N8VPAWVH9S8K KV2G0T7M8', '99V34HURSE5B5QCDQJL6XYIEEIX9D3GAQDAB4J1E6R0V5LNUOXVE6VL9ADTSFBYN', 'XMU50OWD99NDS4VMUVGDT928MP30CUE 31C0TD9NQJG2I6X86OL07UB8U00GUQ2R');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (13, 'UH0UWT8K2LRU93THBTJIAA19ONHROB4NR2Y27CE0H95  VUT7FQ39880EGAI5DFI', 9, '5GEOUW1S4467H4O5DVVX6 308MXRPD99OEHHT8M3WUK VXFN9EKWF7YRCDE OV8S', '1576-7-8', 6);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (10, '5QA9J8KG3478N8C7JXGIRBCJ67VRY508 7N ECS6GTRAV9RPKM71FEG73TIH9OIB', '7JEENNLEAF05WUUQ9PPUX60CE4TVVNI13LX4LGJ14864Y7L20CIDLN8E5PLXDTRF', 'YL0ELNDU1TGOH4Q3R3LWNLSC2PGCAO63PGICWMUC5WRMPT8EGIN5MP1TDKYJWFK7', '0BOLRXG43DNN62WBPNC0CQ1T9CKEDBKD0OUDEFK8S6E1 V8VUSBS90YVJSKFLAY3', 'UF5TIVV5FTK51LTVJPE9ENRSKQ7EO5DFU80JO A0DST44Q1X3E54CX4VO804CC2Y', '3C8IA8F1HH7R0SGORWL6AEF98D E49 S926NN4XHRUI8 G7IFTTURLO3D6T2UVEH', '418IFGXD4KLFGIALS 8AEDD7PPN82T81504D1UH3NDBF6E1V8VOARSLGO6TQYP6P');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (18, 'S0 FF7A8E9OGEV2W1Q3T21N8RSC00EEDS17BEJ3AUJDFWADQ66N T2VK8L9AOU6H', 17, ' PA5XVR701E4QI9E18UP4YJ3T66EMOXWYJQXM6Y1QCOLVX4U9C85FWL 65B28GOI', '267-12-20', 2);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (0, 'DP 80FHTCAUWDP2BVVI635 U2KH4OMRCVGP1RVQNBR163RDSJ8GWBMNR6G0FDTJ6', '9B9RK9CGB6M9NQ8MMCMV902X4S57TJIJFYXJS2XOHOHQQ0L9XOTTHI3 MC90XXVD', '9WM0E 8NCQ R1UJH5GQSJ5ASNOYMROKVSGI9B26QGUBQK3UN0W2GCKCEVT7PH857', 'WGQTE2AJ5UE5HB4FMF3CQHL0HI5LY7K KQAD8XHD0161H9U32I2MD0V3A2KCMOQ6', 'GPL1P5W3SHN5VVPKYTHGRUEB1 O159L4QBV4JDX1OR1SBSR9LJKA BQ1LQUVQOVL', '0RC7X9WDRJRV10AG18JR P 7WJLOFFUYH9OUJB8XTJ97JF9I1IWMQEG8EJMKWD0L', 'L6CH9V1J3FOCNQ59P6L15NJS80W7LSJUUVKOFUOBH9TFP3GO47DPPYXB674WBVUD');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (10, ' 2JMPWRWFI0Y2EG7KTOD8ODJSWVDFD5KFWWKHOHYBJI7 7Y1GDSKG7VJPSNUT076', 14, 'AMC95XVPXID0CW26RBQF2I35 23CU9D1GQ64B8Q2WEH6XQQI6KVP9F06UEBY7D84', '121-8-22', 17);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (19, 'OP UOV44UYRKWT8WRHG072FPMCJU4P64YXWJEH91MEB2OW6M2 IJE392 FG02WEY', 'PFH9H8QR4912OSSGJMDWC4VC1QQIVYNU32TBDOXIC499T2J7UYSVYP WJ042ADA1', '2UJ6 W6MMP90NWN I4KCPH7UF44EMY M2EL5PAINYXCQNM8E 8LSKK UWBTBOS2F', '2PR1T018 FXYYT20DQU5YORPWIJ88F8 WQ4 I5C7LDKBC079AEX558BW9AF3TXH ', 'ALNGTGGLJVTC39765GMC6SPV TXDCBQ48QOVA8PXIEJ0695A3L9A2PAIKLN1C4N2', '59C5BORTE3483G3JI1J9WBNWANVWGEJKMWDMROYB20313IH7FJNJVAQAP47JWLB8', '7EQ32U6QQG6LCM2JABNXG8U6I HM09PW9R  HF7CU99 GA1M2FD8YQT48ONNE7MW');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (0, 'PQDJWO01XRN3VS79M7QTJ EMNBRDHK2CD6BRD52E8Q594ERIEQ3S8J9EEBN0KX7H', 17, 'YW5CTX898CN9Y2 KAFWFQIA2HEXYIHUQLDCIJO8FVAVYX98GXOICQ02VORW2P8HX', '1781-1-2', 11);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (9, 'A2D6 DLID8R8MLYAC6U6ALS6X1VS4HKYFH97DTOCFWEI122 SY022PPHLSOB2PIY', '4HXK4XY68KMF0QQ6NET129RMISUKQMKD734DI0DMNVO07UNYKQXE6A 2UBBGX 8K', 'VNJJ4JYHDSE5N9RSG6EOE6S36AYSUX0NRC2TPT7KE5RO HHIBC2RUF1D1WTLHNTV', '3CJYA4GS1YQXQNCFNR2CF8DW9JK06WQKWB434UFUTS1L8HJ EC8HQBP 7BXVI1G3', 'LQM IW7WD U81255LC614JUCEJJM SC55LC3RGORWA2L54N08VLDMQWJ30HBYEM5', 'H NUP191MFVDHG4OHOLHBXX0CSSQQG2R3EUSI0K1DTE6ODQ8WTIU3C0HGBQH663P', '9EXDV5643DXJKKMIS2YSCE6X7F6MWLQ8SK757VJJ52M3L87HLRAOVEDCUBEMW09G');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (17, 'NOBED14DIGEUKQ35 C TC6HNY62V1MBKB0B3SXYLWUCWCTXV93NWYUEQAH2QFY2R', 13, 'MCGN5SONFPYPD1BYJH51CMLQD9S3  AOI1KQI90JY8YXYRV6LII6V647NABF674K', '1136-2-18', 14);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (16, '3TJ7DX1O2R60G32TQ8YOFIJIY4RUAMXWRE5U2NG9OUPWP5XEIXY8OP6S407OQ2RK', '0GNI9XYWKPS7R538S18KEI3X86674EUH9HS6XH6EPP4W2BOEENCACAQ6DAAE8D5L', 'MVLJBV3YP1QXC5 PQF2X4SX38FMT5DTJO2691N4 OKSKDMWRP IRFWA2M45EASH6', 'D E7U6UKKY7SAW1RC5C7OKKVYSRI138OI5X5007HJ9V 44ADVI1O2FEMM7IJ9JLV', 'LS JXG7S5OWOSLRH7WA9DYW94335QY2A9PW 9DRSH365DU7VTYJXS21JNN4CONTD', 'P37GTEA4FUDFWQX6T 4FBTXFLUF19H88BHWHPQK5C7KP2PEK6420CHMWP93 H1O0', '68K2SRS059V72570JT 3LDBY7URBO58UMDE0VTRQ 7CW9NE4LMD3YXBBLUWIG9K1');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (16, 'UH0UWT8K2LRU93THBTJIAA19ONHROB4NR2Y27CE0H95  VUT7FQ39880EGAI5DFI', 10, ' SA19PJLO YEI696IDQ2S94E16BSSKYOAMYWVU94VNGNSXN06V20RD5UAGB5RY1M', '330-5-10', 4);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (13, '4CH1 21NDARX4QTTGXIV46YAFPE6BX O0CF1H05MIUTW0HX1EOBQRC6MOVPQINBR', 'XXNDOEEKN6JYQ8WB4ON7ATPPYW O887WC68IJGLGDEKSD573 RAP1NTQDGN54JSB', 'NCWFOAO93LK66E97UI9KCS5SSNY9GNQLWEIVWLH6PXLETOD GE6AUF2APABXDD0L', '40EQ8R56ECJFL8UEVGG H7706M1AODS0MK2R9C14O8K20V8CLRO5UO5V4H9F2C26', 'BQUVWR4IKB1RFUK Q 5K486CRCKRTY7Q5HJCE6YVPRUAQ1H8N0G761MUS225PTD7', '84B9OWRNVEME2Q8QEAN91I7WKNITTL7M442HKTA B5 95D45TQTFJ4GG6JNA8YEU', '7H64H7FBHQULFSGLB5I0VEFWGQ6QMNBHMMD28S  LM35QFNHMM4EXKHH7WGJIAQD');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (19, 'EWXL9RTKXAJ7JNAG UANCKBPOSNWLUGHKF02FERWN5ACYSR8EKXN27SKPP1F3WON', 6, 'K03JIL0GVDYXD732BR1NOETBXNXAJHS 8CQU3NICK3JKYY2 7RADLHJPLQHM2PP6', '777-10-8', 18);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (15, 'OBCM62747Q56W1L3TRM23BLM51YO2IIOQHRWLPH6P04NF6RDDY4V5RARU6U8SDEF', '85G1AGC9OUFWMNL6WJA2NOPJHS7LI0L39EAOEIU9LKDN9WR0AB8 CAAJ8A00HSBD', '9 B5ITB131LBUJN8T04B62C13ESA6OD319MVKQ7BRRUK88UTSTN7HJUDX6TE4BBG', 'ELR67V8150UO0GSFWVW2MBR2NK6UUSQ08TWL69GU6BE9NAIGRJQ 64P27SYKN6VV', 'GL9ES4D9M9GPMNCTYYS6TQ4DS7XXW9KE1KV6INAOV5O0HT3UQUQY02DN0BE5FHS0', 'AU1OWL691H4L3C1KLO4RMRAMOFN2KMQE2EKOOHT0E6QPJRFN0L37JA BEHLA4TMI', 'OFR0Y66JNWIXORDY90F3LVDTU4M4 60XRRWOS6A59ND1YORFAAE293KDRX6FMVC4');
 
-insert into show (show_id, movie_name, cinema_room_number, show_movie_name, show_start_time, show_cinema_room_number) values (6, 'UH0UWT8K2LRU93THBTJIAA19ONHROB4NR2Y27CE0H95  VUT7FQ39880EGAI5DFI', 14, 'AJR0Y6EMVFU4C4L0K7N5DONGY2XTOL6Y5VM9VKT2O8KEFA8YS45YV6HD8IUGXG23', '1006-4-26', 5);
+insert into advertiser_data (advertiser_id, advertiser_name, advertiser_phone_number, advertiser_email, advertiser_itn, advertiser_ogrnip, advertiser_kpp, advertiser_address) values (12, '1Q8 VF24YRKU3WVH7TYAU00UJ8A5MYQQF4W1I61H LNJ3PGXAH5SPV UGT4UOQQ2', 'AS8VH9F169KF3RKTIHJP9M06H5XQNVY9MBB1UBY5JI358BU6L6X5LHHD9XJSO46Y', '0C6KMPX1NTA6KEVNJAVXNY7LXJHWDMAKH4836W497HWN9MPWG 9NMMTYTAVGOM39', 'HRCKJ6AYR34DTQFR6WAWMHC9F2DOV5D2FKE85 56QJT5BNRF 2W3GSLL91JV9IT7', 'A46SDO1J3DJPF133EQ2N68L8Y3XT9L062PBD5C IHDO1VGJ 3TFBLHA NEUXLQBL', 'K5NYHGNC6S M75XI49HNO21ARW6Y3CE9QHSBQ 247VMKT1JN33 6PEHB6CG0IDPR', 'HATEQHW1UMO0IUU1K1R7YB2IIC7HDFV IEFNDJU2 YS2W2XI4YDYF7XEM5 NPCEY');
 
-insert into show_ads (ad_video_id, show_id) values (5, 4);
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (1, 13, 11, 'SRMF1V52V8KAH6IR0YQHLKR4FJAABUBCUL6XQLRBX9CRB4K4SJYHNS0JPF6KYFQD');
 
-insert into show_ads (ad_video_id, show_id) values (8, 8);
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (17, 1, 8, 'B H0SH8VU2DJA5JCVWIH34AN1VCBOS5VTX  Q5SFDC8KLVVJRC1MFX6GTWHO8N18');
 
-insert into show_ads (ad_video_id, show_id) values (17, 1);
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (9, 2, 17, '65WMEI0RNHSEWYOTL9F872NAU59OXNUNH19YR2QS9A07M0V0606CM60WIWF4KU8J');
 
-insert into show_ads (ad_video_id, show_id) values (6, 9);
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (13, 14, 14, 'BX2ID7H VWI8KW35KVE3O873BO4 IODGJ5DUAI6GQWD0TKC0G6CU5RENXOG8YF67');
 
-insert into show_ads (ad_video_id, show_id) values (11, 5);
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (10, 10, 12, 'TKOMYNQ3CRXFNICKMLTHDMGUN3SJXSTGCR10OIN7NYA8DWX8QPT6EFHRHR490P00');
 
-insert into show_ads (ad_video_id, show_id) values (13, 2);
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (19, 14, 3, 'HXBMT7FSJFOCQPN6NFYM9E5IQT QBEE29ILVH0MHWT2N92BIHCDHLMNXMCT9B97H');
 
-insert into show_ads (ad_video_id, show_id) values (14, 3);
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (3, 18, 18, 'D2I5C8BJCKWV6QV5AL06C GQF WOY32 1DKH2C DNY8EWP7A20H1EM3HXV8QP6VA');
 
-insert into show_ads (ad_video_id, show_id) values (4, 12);
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (2, 10, 7, 'PA72TYCM9E5G34P45GFVNETTRSKU0F923UHGVTBB08OF2U7CL2HLJTX9GOL759FD');
 
-insert into show_ads (ad_video_id, show_id) values (16, 7);
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (6, 10, 16, 'A7GD77PIB7LS7BRIP5DO3H4EDJJVI6KFK2Y XB04T7C5AIA6MBF1JJXLBYHOLVXO');
 
-insert into show_ads (ad_video_id, show_id) values (19, 14);
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (15, 3, 13, '519JO8XCAXT0U1IOLWG4QW3VCXTI3K4RP59L1R2YJ7MFA4F6VMQKB6QQTGX0EGYA');
 
-insert into show_ads (ad_video_id, show_id) values (1, 15);
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (18, 11, 9, 'TM71CMCXF3G 7R0EX7A17T9XA4FN9UPMY7PVDIIUWR6X5C6KARDEVE8HY5OD2LX3');
 
-insert into show_ads (ad_video_id, show_id) values (12, 11);
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (18, 12, 5, 'EY6IQTTAMR5HW7IKQ5OIMSGK8DA4Y345MNKDQ8ICOVRKU53LHT7XYYSNQXEKRG9W');
 
-insert into show_ads (ad_video_id, show_id) values (3, 13);
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (9, 11, 6, 'G08TME0OBMNOQ5HQ K59JH4SHUX09FA99O6WPTWTPS5AMI4J261637H5I3308Q5N');
+
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (4, 12, 2, '26SWD05NUB107TQI9TL5VAMF7NOK0 PWMUTL1G43FUBGARLAFAIE21QYQD02PS9B');
+
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (14, 8, 15, 'CXTE4PRGRGQNMGX48BIQ2DJ4EV0MNC1HMO820OXBVVL63 WSU8MNHEYW6EQT1IWX');
+
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (6, 16, 1, 'D126ANOMX R1WKL7J03PGLJ6UX0KDA 8FIIPIP3IXHBO 14DREY7TLB87UXFO8YS');
+
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (1, 10, 19, 'HRFXC7 3C0DXW7UO0F10WIP5E8HDB1QB7SRHTDFCN6HQ8HYC7F9F4FHNO6VTR32N');
+
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (1, 14, 10, 'UJVD70MNLFS C5MRJN1YRRH7XQ4OL9J7YAKMRR6FF V92G2W74AK2Q0RA709YDGA');
+
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (7, 18, 4, '7G6SU536 QXWB18 36KO3T 8M772SEJ8O90FHREORTGH1PTDTQDQ62JE5BP21PY6');
+
+insert into movies_people (people_id, movie_id, movies_people_id, movie_people_role) values (0, 14, 0, ' 2YG7AA57OI3UX4J0IIAUUOQD1  8D0ADXY4FLXUHEUL82U9SCOYU5S54CPBVCL6');
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (13, 0, 12);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (6, 14, 11);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (1, 11, 9);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (3, 9, 18);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (19, 3, 13);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (0, 0, 2);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (15, 18, 15);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (12, 19, 10);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (5, 0, 3);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (13, 7, 4);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (1, 1, 17);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (3, 13, 8);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (3, 9, 5);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (11, 19, 16);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (10, 16, 7);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (10, 8, 6);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (3, 0, 1);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (12, 2, 19);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (11, 1, 0);
+
+insert into movies_studios (movie_id, studio_id, movies_studios_id) values (7, 6, 14);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (15, 5, 2, 18, 14);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (7, 0, 18, 11, 12);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (5, 4, 0, 17, 5);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (9, 18, 7, 7, 9);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (8, 15, 3, 2, 15);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (13, 11, 6, 12, 19);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (19, 16, 1, 6, 3);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (18, 10, 8, 13, 10);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (11, 9, 19, 5, 18);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (17, 3, 17, 1, 16);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (6, 1, 12, 0, 6);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (0, 16, 10, 14, 7);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (3, 11, 5, 16, 11);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (14, 6, 14, 9, 13);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (4, 7, 16, 4, 1);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (2, 8, 11, 3, 8);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (1, 18, 9, 10, 17);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (16, 17, 15, 8, 4);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (10, 6, 4, 19, 0);
+
+insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_number, seat_row_price_coefficient) values (12, 8, 13, 15, 2);
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (7, 14, '8:17:55', '99159L7QHAJHCOW0QHF08V33RHQQRP62AR1WBCKB83Q70WL40OVTA3 V1XG0H2A2', 'D3376LSUPDBMY1B9A3J6RDJVVWYV6O3GG94GLWAH5RDU8GHPJ1Q9DJHNSKHGP588', '3T6GS2TCWXW89SAN2AYN2PWA5WI3BFFMW2F19VPWNKLM8C0QP025IHY5VXCGQ52W');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (9, 11, '9:22:52', 'C3IEE11RFXEKLL9HJGLDXR2D48FWCVAGLX29LPF0N TDXS5551K69LU19C06C48N', '2VROEAR3I8U2P6J5ESYVQC JL5K 8 89BLMKWLTBBDW1FI5 7WKECQ9AMGRFDS2T', 'NY JL OL2QVHQ7J825O2GLYO1TLR V6ROV U9IP6YB3KX116HUAQP6XP2C QXWU1');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (4, 17, '3:46:30', 'D54CE79JL KQ2ONP5YGFGY5G1GGLH1FL0 0RXBFY5GD34OMAAFL3PT0WIUPDDNMA', 'F3718CD9LC3FR4WPB65X61P PAXC1L DHN9KYOCFRWC1KU3TVGI3W3M44VU8UDPO', '0S8K84UNF8UU4XC7763L0EI9166DMA2VP7TODGH986A 1JIEQL8NFWJ2XCH93RDF');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (0, 16, '4:17:32', 'GW0CTLLORLEVR8G2VABTACBY1X8LTFOACX2980XNB2R7 H3G62NXGOOK7XBMX0KN', 'Q6YFE0L 7X9EJB WUS0QDG64 86I81FC6BSNG 940WV 7TNC JKCV4 EX7T4MLOS', 'IGKMB0 0DXO2CP455QF68CHR21XLGJT2K65EUQ85 9BSY1FIQCT93S50 F2AFCOT');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (10, 11, '3:24:35', 'A6IS66RVDL2638DDYR270W95DT OROD3KHG2NV0SRSKFUNCT0SE221AM3R0FUW4D', '0GICL9F92X8RGPH03PRX8ICD3LTUYJYOSC72U0JUB 6PEHNUQF7PGRN01BTQPA9B', 'R M1GDIKFQSQJPSUG2QSVIP1SFEYCW5DACCBI1IIXDTJQEGKBR4FWJ0F7JS7SU7I');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (6, 1, '6:41:40', '6SDH0T2AY2M8AW7UHQ KV0ILIYJDOK8BT KF945FPISK27AV749X52E4VKVX5P3P', 'IGFWNJY95W1GK1JP0U4FI55I3 SMK9A0VHP3MI7AAYJ2H3FMR4H0IEESUYM2MIVJ', 'AP6D8US7VDM8CK8D9C P5DHOUBUOHQHVUO6J8AD4H46OIDW99U8HBIF54B1G76L9');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (18, 16, '6:9:9', 'NYGVVO4OYUAOVL5 5SYMN45QVJ9T363B 6ATQAP WOTVQOL75VB5OYT4OU7RI9EY', 'PC424J 8IU1JI1FF 3X1WHB7C54D31HU06O87YI1F0J3S9I69SHO3JKNOJM9YIS1', '0205SLI8XEY18RV0BLK80XQ21L76NFRD S00VG3S7586W8A2 3B409WLYINYX5FB');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (3, 1, '0:19:30', 'OPNEQUJ4EW7HMUB3QNYILBRFGSGJ3Y64JFM7CAQV9D4IOCNEVSV7H MVCR1S6NNR', 'NM93PB1GADFTNV6QD5RCQ 2XRO4OX99EE6YBJKFLNHEUP8L9XBN5PQDRB 97DN25', '3N1UG69PNM1OBUUWS EJFKLA640JG3UBOA7EYBQNUV9868UC5FSV8FGFEP VL MJ');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (11, 14, '4:51:19', 'YBFIP S94JC8TLD4261WI7G VJGLO869EBKQ6C 22J6P9FQ32BGQ8EC7TB2QEC07', '1SDXXME9LRK07G44GTLI77815FV7OEOA5N1T39D B5Y7ACPLS 0P7Y6J5A1R25B5', 'Y5BAK47513P 1AC7CJDRCWSOJUAJH5R5GTEU2W4C7K4NVWB83PK3OICTD2H6YR3B');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (13, 13, '7:35:23', 'JRHVRKNTDOWJA6SOH61VWGGTQHUTUOGBVQRMA6LKC59TBDNT7X 49BY015VDAU0Q', '9D5TEDVSGMAS1LM61IMU5 TI9UD8DP7W WPKWSEW4PAJU17ES1P0WT1O1G4J7 PT', 'R8UYL9SL GLLY1A88FHIAV2PEE KA4TVI0LTP1 ELD2VJ1S9WK69A93V8DVYBPID');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (14, 16, '1:7:49', 'QC3VKU23BRJBX4NKPC4UC12WNCWA23BM54XDJWBC5E8BORUX05IL2C1GNQYBDNSA', '1RGVHLI1TIQ7IBTQTHPF 75KAQ6O6M2A5HTLOAEG A8A4 8I5HX40XNACOFX1X9W', 'V0KPA0DEMHDL8KPC175YYITN9FGF6H06ML0S0XXI670R2VN8J4GQRNKXPB8HNTOS');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (15, 3, '1:59:45', '50VJNQ6U3N7SDBVB0SX9YTKP2OWABCT4PMM67JR8MTU3A2H1BNW1JHLEATPM9WQE', 'I5UON5XIR7A0X0UL6DBF ETLUTMJFDE786C2GLWOTTYDYGF6P4LBGN DU AB1PKY', 'LUQTVH7NHVBFL2OD DKFKEHDWQH5V0Y4TTG6FFV WIJ0QP87NM54BMJT5P0X9G2T');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (2, 1, '2:27:38', '40UFXYW4XB76S0AIT1F9L05HKSH6RIKXGIAX4MHH9KP458LP4GXOFPR9VOLLQMDE', '3PW7L0C TVFRJTD295DNHFTUJH3XEDAJOEUA363K6IQ7J7D5MJ0W4DBRYR10TB5C', 'PX8LGM28JLJTFV5ICL8 IPXXPMLEH5TO9 0BWOVWVYKKMC1PFPXTBC1E2G7P9QP4');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (19, 14, '5:35:26', 'RP2U873VEX9ADVI741SM10HJMH093NNAJ3JMGSRWXNL6W7V3X 87KQ6A42YN5JAU', '3KKBNUTEOECT4Y2NSO53B4S 0UW8RI793  TONYNKL3FPIBK8 SK6 7BR VK3UQW', '61BP84GTK8RE2N7M4NQ5D9HYECCD 4IWFGWEA1NH747YXECPB8VTCDJ15UOVLF82');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (12, 7, '8:59:10', '2B5J 6CP9QVMUTGMJF0LIFWVE5PJS PH4 WEQ2SN1EPS5O4VJT1O4G7GFQMKQKDW', '43NYUEWKXV6IKKYPRB201BAUKQVDSR 9D2KN7MV M5AQC39WSA3K2ALJB529K80L', 'U27DWNJ6W IAE6 HW72KKQ4ST5QPFSBQED15BH FG13CYB25WHBJW13HWUXSPQMB');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (16, 19, '1:37:23', '5W1IOBFI7MUFSJX31OJYRKBYXGT0VL1 YVPGON NQ2WFKVLDY7GQO0WGPR2ALVPW', '39IOSSXX7NM9C OP9PBY7HXLBVAG3I9GTUG2DNK1GTINQ2QGUIBMN74IO8MQVMYX', '405FRKINQ7DHOFO71NASS6EUOJFG032AFFCDHDBC3D TL9MCGK78OWSB1JOTDR4A');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (8, 11, '2:45:32', '2BJMC76YXFD75EJ XF462FAQ6KOWK2UR2N709XGVRE08B6BH88D384LMARXXLG45', 'AMT7OF5URTR43CRDI6TFVKSNKUO1I  S33BJ6BNQIH07QX642JRYPTFKRPT52F7F', 'NEWOWR0P 2CCJ7IQRCOWYI5G76YSECCML12D7TSL7YVMIJ V1PO4GDAUGAM003 0');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (17, 13, '6:56:10', 'DB0EM0PCC3HLFS71MK JTLNPR2T55UJB7D5SNGDKC87WHY8ONEI6P4DP8D95497H', '2 SL7I9L4P 3 DRRK8N2XRN5BJP6K YL J3LAWR27H75RV74LT39F5LKQWUVDXLB', 'OH66V6LAIOJBVJH 5MXKDS87B5H23PG3HD8OTOU9G74J5T146O M20BPEIVR2H7N');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) values (1, 14, '0:49:48', 'GICXOV4I0VB0Y7KS6X3OPJ3A0MI8AE7SIKAH2YVG4WQLSL7HNW HDL71YPPH53 G', 'FDH1TN47K8E1G58AB8380MLVUMB1TD8FEP0G2GYT0QB1R922DILQ3JBB3TJAOFJX', 'Y QQONKT5GFI7HVYHQ67M2JVQA9R0W9K3ROC2 TYIAM4YW1CEJVJLN1FOU6C3H9X');
+
+insert into ad_videos (ad_video_id, advertiser_id, ad_length, ad_type, ad_show, ad_advertiser) 
+values (5, 15, '0:0:0', 'LJTBH66ALKE8QT7 X2L5ED2T8SMH0V89YBATL9PDB08OLTJVOU2E9R2K CPKNMJ4', 
+'KSEYL3EADC65TR GJ2ANPCPBTSUE34RULJT9K577NVSORMTH1KB0OOD6TC 3O5S0', 'JG7QNWHU JVYC37WM2 3XEX7 JW42RBDBKB75J9PUMHRQFN BH6JWF5E5D5F00BK');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) 
+values (4, 5, 15, '1809-3-8 9:14:18');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (9, 15, 5, '1746-8-5 8:46:38');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (0, 18, 13, '1-1-1 0:0:0');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (11, 16, 6, '159-1-17 1:3:35');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (5, 9, 17, '968-9-15 4:55:59');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (19, 7, 7, '819-10-13 4:19:20');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (18, 7, 0, '1605-11-5 7:39:25');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (16, 13, 2, '1102-2-26 5:48:39');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (2, 16, 14, '588-3-28 2:58:30');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (10, 17, 12, '225-4-6 1:23:20');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (14, 2, 19, '323-3-27 1:51:4');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (8, 18, 12, '1657-5-27 8:19:54');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (15, 6, 16, '1230-10-7 6:10:27');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (1, 17, 16, '1511-6-10 7:17:9');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (6, 5, 13, '451-6-24 2:33:35');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (12, 3, 2, '99-12-29 0:39:34');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (7, 17, 4, '1040-2-25 5:21:24');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (3, 6, 16, '721-3-27 3:37:8');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (17, 19, 5, '1444-7-6 6:50:12');
+
+insert into show (show_id, cinema_room_number, movie_id, show_start_time) values (13, 12, 15, '1369-2-6 6:34:13');
+
+insert into show_ads (ad_video_id, show_id) values (7, 4);
+
+insert into show_ads (ad_video_id, show_id) values (9, 9);
+
+insert into show_ads (ad_video_id, show_id) values (4, 0);
+
+insert into show_ads (ad_video_id, show_id) values (0, 11);
+
+insert into show_ads (ad_video_id, show_id) values (10, 5);
+
+insert into show_ads (ad_video_id, show_id) values (6, 19);
 
 insert into show_ads (ad_video_id, show_id) values (18, 18);
 
-insert into show_ads (ad_video_id, show_id) values (9, 10);
+insert into show_ads (ad_video_id, show_id) values (3, 16);
 
-insert into show_ads (ad_video_id, show_id) values (7, 0);
+insert into show_ads (ad_video_id, show_id) values (11, 2);
 
-insert into show_ads (ad_video_id, show_id) values (15, 17);
+insert into show_ads (ad_video_id, show_id) values (13, 10);
 
-insert into show_ads (ad_video_id, show_id) values (2, 16);
+insert into show_ads (ad_video_id, show_id) values (14, 14);
 
-insert into show_ads (ad_video_id, show_id) values (0, 19);
+insert into show_ads (ad_video_id, show_id) values (15, 8);
 
-insert into show_ads (ad_video_id, show_id) values (10, 6);
+insert into show_ads (ad_video_id, show_id) values (2, 15);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (5, 4, 16, 'RCF8BHVU0GLGLPUJA4AEUM IJ6299D41TGJPI7MLNB8SGS OO7L3F24IXQ4J6KIH', 10, '18QD4ID3 OUIMA59GEIB44WNUXGDJHB80H2 I 502BV18T6LPJIPOIB7YJ7OB40C', 9, 3);
+insert into show_ads (ad_video_id, show_id) values (19, 1);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (18, 9, 12, 'YPGOI7 X6726UQRV2QRAOSP6SG8KJ5KONBNTL 2W3GGPKINE7B7W42BWQ0C9IOPQ', 9, '9R7YJRGXR24TA37HCF2N7A XUC6H706HWV68MOW610ENWFI15D4GP4HQIIB2GGYI', 7, 2);
+insert into show_ads (ad_video_id, show_id) values (12, 6);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (9, 5, 18, 'PEP7YHUK5EYPY32 RRYFNT5OKB3NWAPSW1YDCOTXJC997CIULKE31IS53F9JUF7F', 15, 'TG2VNXV9LXU SF5LBMQM9BYR94RKC5UFO241M352IEDCA3GDU2YMD3V5WNH7QNWS', 6, 19);
+insert into show_ads (ad_video_id, show_id) values (16, 12);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (11, 2, 17, ' 8P U4QGCK0IUEP APISB0868DFT9 D726P1XVKH3HP9YMNKL9MHLL1XVJAL53NF', 4, '89L1801 EVEP42WNNGNLXJ37IIEDV8Q82XYDI6BSQV39VAG2MRWDJG2XQKILSOPK', 11, 18);
+insert into show_ads (ad_video_id, show_id) values (8, 7);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (12, 14, 3, '9M A CGP9O0BRV8R LG64NT565PF9BP90OX7P4UWNG1VTRE8DVDVMBJCT5UOBAIV', 16, 'S4PBARFQE4R KO2KKRRDRYEBEC7E2790M82U6RISI81VFHXTAM4TYLHXNEA3D86Q', 5, 4);
+insert into show_ads (ad_video_id, show_id) values (17, 3);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (0, 19, 15, '619CML3JM 0NW1D1I1CK9MFVFFIVGTW3RSK2X HN6483UUICDXU45I97U1H17RDL', 18, 'U 39CBV6I7U3D0GU0DIRI9GI2I6LBX8X0T0CX YMWMFL7JWKJGRVBMDE0S8B0YQA', 14, 14);
+insert into show_ads (ad_video_id, show_id) values (1, 17);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (1, 13, 2, 'EVADVTKB5UUFXGJG89GO945O6FUV6JJ5JP23NAHUDBEK1SDFCW7B ULLY4YS1J17', 11, 'Y78D4CF4E589QOLNGDHG5E075GNJFDR57G5LJKXS5EU3OMNBBBQL3AY3W MV69XU', 15, 6);
+insert into show_ads (ad_video_id, show_id) values (5, 13);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (19, 0, 9, 'MOY8815P501YISTE9BW22B89QF070S4B0G712KRBRP01JK1CGK9F9JHK4WNLF8XL', 0, 'FUWDOV9HBQB7BD7K07OG95O9KS20ORQPEE8E7SGBOYOORJYILSARTKDS6YNO97J0', 0, 11);
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) 
+values (18, 4, 7, 'E 5C3NLKKBGV517FPVHONHY1JVVW4DH6W8EK3DDFSNK6RCTSP3JEG2FRKAE V7D5', 1);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (10, 16, 10, 'LDY44669QLWNE1678LPJOKAW2IJ7H8KQ99 5UDABE3CTLOTJFCCEG1G03QCNKRG ', 14, 'KRGKECLWX8BL4F2D08M8K4HL8V8GBYMQRSMCM3XM5O3Y54CWAC19U0VLDBYG5B G', 17, 15);
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price)
+values (4, 1, 17, 'UBSPJEMBT18FFHMMNV7K7MNNFJ8UBMT6A6J8O92M713IW LHQNNJDVQGMWG1TRG5', 12);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (16, 0, 14, '2O1PCLC8KHGI4GHEW5A57E4HD586N UU547JCHPKUSXR7GH  UUDA2KWNTXG26HV', 17, '  DVY3FGTDDJ C4JM M4Y17AEPQF0AXYVT0EJJBTREOEDHRCSQACVRVH0V9LOFOR', 10, 16);
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) values (0, 16, 15, 'DCW4LEOM ISM774WI9L1AJ70B9KEIJXKXR5EDB316RTRIGHP8 0CP1A64485OPR1', 9);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (17, 8, 6, 'H8XTVM3N4N3575J1BK EA2RVV48V6K31PUDMAOHE8TGW3CW1H6MXES735D7N57E8', 19, 'IVNE7O5EFWMYQU6YMRJ2IFAXALUKHJ9JQDP5U2UG0IXR7VP1 TL   6 RXFAHMDW', 19, 0);
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) values (7, 0, 5, 'W5JCKN8FGB7L6N  F5 Y810C I0U UCJ14VRSEFBFD16HAMMB0HW9AOWI9IAFLRT', 13);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (4, 3, 1, 'YH6CT1015YLXQK8AKETJQ947CB3B3LYNK 0TK3TW4NBVIM8DJGI5E MW0SY4EKOG', 6, 'Q17 QEBV772A0ND5RTN6EI QIR6N Q7KUNUMGWJIPY3MYVPJ1DATWPGAWGSDMMCN', 13, 5);
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) values (3, 19, 1, '182DI58FK6SLR3V305U5RCJES2LUMI68GI0Q4NDU5IG9Y5D310GNFF69T3 Y2XO6', 17);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (15, 8, 13, 'GOCB43SPNO0KKCP4NGWA65QMG2B60F2OAAQ82BYEUR5F2RL6CLNKKAN3PSNE6NBX', 13, 'K9DU3545LS31H2NA1NPGACKKOX1EEU5H6MRST1N3H84NI25 IPVGHM6KTWTJHYSY', 2, 10);
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) values (16, 18, 19, 'EO3N0PJXJCJ1NJFFNOKSMNX3 YQJ495T1C3MXPR2OL55OWGPWGVAW5J1QYPO8UQQ', 7);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (13, 7, 5, 'FV XQ53CTKBK9H4O5SKTD0YKJRVWEP1B42RMGJN8UX8B9WT LVIQ7C12UNJQGVW6', 3, 'EI2VU0LYOBAFT7D1A7U1PUVQ2K JRG FR602R9F973AS8JOE3H066UQCKBF2H Y6', 12, 8);
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) values (8, 2, 13, 'LUEJ3TWOBDBMDMQHSJAFPRPOQ3 OKU5F22PTL1Y3QP82KYFYK6E5AANFTJ6U45WI', 11);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (7, 12, 19, 'H LQGQHDQYC6DMOXFYNHDHBR 29A76JSXP5  BY 9UMGJ6H5J7J5FC1D6PD0I63V', 8, '97MPUJWHW4P7OIVU7EF5MGUTVU8HDDVUH1EQ6WTTQH3MPIMHYJK4QBM9SU7BX 60', 18, 12);
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) values (6, 3, 5, '1 6 JWJ48P582WPVFOJ279AVY H7RKTH42SS7N0RYMGOC NOBX4I3KUC0XRVH KJ', 0);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (6, 13, 8, 'H9AE8J5C3AYQ37VY01U5XBXL62UNAR26CPJYDJLQVU7OXQKSUK4O2Y664KIL9F01', 12, '3W5XNUXWGGH72CN4MMW0W0D8P72 6MOLS7YFW483THCUUS6RGV3RKV6V0ABX88 Q', 1, 13);
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) values (14, 1, 15, 'Y8M99TXNFC97PXSXW19WEWK1QQNO8Q51JIVB7BC9CEEASTIJBPH0VA1098YSN130', 16);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (2, 14, 4, 'ELXAF0PF QGK9CQ7WWMHBLYOK4YX9XV5EPX48SW2XQWGLV 6FQKLK4LJD WC2WK9', 7, 'TDO97PKTN1FY5WBRMWE5TIL7EB4UN2K72CTHXVR2K98XM7G0XFO 14P3SP1HS5KH', 3, 1);
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) values (5, 7, 3, 'O U3PL74TUL06J343K PPACBVWUDWIQUE4QXJ5KYT2 GK6F9WC17JJIIOL8YOC7M', 5);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (8, 4, 11, '36RGFK9PKU4HHCKH7CXUHDF85VLBXKNIKMJ9IXUG7HQ4OLN47IKWD8FYOITV2NDL', 2, 'OORAHB5PE3OBRKQ48EKU01NCWYJPXTM3DU9I9M7B81AREYBOVQQ7DIKM07T3RNA3', 16, 7);
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) values (12, 17, 2, 'A 3VRUWXCLV71IPESWXNL25GBGVJ FOMBL URJMXINR SA57AW4KV9L2TQG0B2YK', 3);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (3, 7, 0, '1XQT300AIAX6LE9X R C08HHW7KTVRU5HH0MXM4D6I1XUSLSEKT1SBYJNY5GRH3I', 5, ' NOCFU8CKU41DU13HSNWXFOCTXNQSBWUF5IKYU8504IQ150VQL5VIIKI2IUW4EM8', 4, 17);
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) values (15, 3, 15, '27RT6BUJ1H5NQELB939JUFRHQTQCMFUJQ63N0N9W2542MJNUSBP64 TSXWPAPKAI', 14);
 
-insert into tickets_data (ticket_id, show_id, seat_id, ticket_payment_info, ticket_price, ticket_movie_session, ticket_seat_row_number, ticket_seat_number) values (14, 14, 7, 'HBS68F9KOVBJ5HUMO9E4WAGUT0TJ0QS4GE5Y4TY48XLPCGQ6I SDJXT3U2UHY394', 1, 'VUIX76DMNKK3RJUDLN51ICOUA61LG9ENVMKLTUKKD13D9O6EQ 5BV G9J9075LDY', 8, 9);
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) values (17, 2, 0, '2HC5NP77USWNJVO2QFYPKMB PNQ9BKFLX9YPYALB8UECQSFD1GF8SVIKW6QSNL99', 4);
+
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) values (10, 14, 4, ' H655PV0TBQDHYPQ9MXHHN6WN499FN6FIVV8T06G57H G0F5RIK GSGGDEFKTJ8E', 15);
+
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) values (9, 14, 14, 'XE3KR1JW45IALYUN19XSW9JYH2MI106SHWNUTTPU0SAV3IWIVRE8EG2VA8B13G5F', 8);
+
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) values (13, 18, 18, '1WGE7Q3FE3F5LU1TXPDEYA WQ2KYYWN2YKKIMCNT857JGDBD W4XVGA8SC1WARVU', 6);
+
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) values (11, 16, 6, '5RNL92B3B MIE WP8CJWOWHLE9I7SCEJ5NQ39KQKP7OVEJI21FHKO05L3I7UJD0K', 10);
+
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) values (19, 14, 5, 'R52VM MWEHG4T3IMWUC8SBO15XC7HP442BIF1TWG7RW3SUCQRN7SAOPWF7 MCPDB', 18);
+
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) values (1, 8, 1, 'II BS4IGKI2RGKG6DXONGVCUOK2QQ5POHM5NWAH4JWLOC2V3 8K6KLUP9KS WFAK', 19);
+
+insert into tickets_data (ticket_id, show_id, seats_rows_id, ticket_payment_info, ticket_price) values (2, 18, 9, 'TAHT67H0NDT8525JBVC4RI6BE7EDOQKH1FU466L468IHJC1XJ0L8RTQ01TIB1U8O', 2);
 

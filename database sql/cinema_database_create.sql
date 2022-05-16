@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      PostgreSQL 9.x                               */
-/* Created on:     10.05.2022 21:29:55                          */
+/* Created on:     14.05.2022 12:29:50                          */
 /*==============================================================*/
 
 
@@ -90,8 +90,6 @@ create table ad_videos (
    advertiser_id        INT4                 not null,
    ad_length            TIME                 not null,
    ad_type              VARCHAR(64)          not null,
-   ad_show              VARCHAR(64)          not null,
-   ad_advertiser        VARCHAR(64)          not null,
    constraint PK_AD_VIDEOS primary key (ad_video_id)
 );
 
@@ -120,7 +118,7 @@ create table advertiser_data (
    advertiser_itn       VARCHAR(64)          not null,
    advertiser_ogrnip    VARCHAR(64)          null,
    advertiser_kpp       VARCHAR(64)          null,
-   advertiser_address   VARCHAR(64)          not null,
+   advertiser_address   VARCHAR(256)         not null,
    constraint PK_ADVERTISER_DATA primary key (advertiser_id)
 );
 
@@ -256,14 +254,15 @@ people_id
 create table movies_studios (
    movie_id             INT4                 not null,
    studio_id            INT4                 not null,
-   constraint PK_MOVIES_STUDIOS primary key (studio_id)
+   movies_studios_id    INT4                 not null,
+   constraint PK_MOVIES_STUDIOS primary key (movies_studios_id)
 );
 
 /*==============================================================*/
 /* Index: movies_studios_PK                                     */
 /*==============================================================*/
 create unique index movies_studios_PK on movies_studios (
-studio_id
+movies_studios_id
 );
 
 /*==============================================================*/
@@ -322,8 +321,7 @@ create table show (
    show_id              INT4                 not null,
    cinema_room_number   INT4                 not null,
    movie_id             INT4                 not null,
-   show_start_time      DATE                 not null,
-   show_cinema_room_number INT4                 not null,
+   show_start_time      TIMESTAMP            not null,
    constraint PK_SHOW primary key (show_id)
 );
 
@@ -391,9 +389,6 @@ create table tickets_data (
    seats_rows_id        INT4                 not null,
    ticket_payment_info  VARCHAR(64)          not null,
    ticket_price         INT4                 not null,
-   ticket_movie_session VARCHAR(64)          not null,
-   ticket_seat_row_number INT4                 not null,
-   ticket_seat_number   INT4                 not null,
    constraint PK_TICKETS_DATA primary key (ticket_id)
 );
 

@@ -113,12 +113,12 @@ advertiser_id
 create table advertiser_data (
    advertiser_id        INT4                 not null,
    advertiser_name      VARCHAR(64)          not null,
-   advertiser_phone_number VARCHAR(64)          not null,
-   advertiser_email     VARCHAR(64)          not null,
-   advertiser_itn       VARCHAR(64)          not null,
-   advertiser_ogrnip    VARCHAR(64)          null,
-   advertiser_kpp       VARCHAR(64)          null,
-   advertiser_address   VARCHAR(256)         not null,
+   advertiser_phone_number VARCHAR(64) UNIQUE         not null,
+   advertiser_email     VARCHAR(64) UNIQUE         not null,
+   advertiser_itn       VARCHAR(64) UNIQUE         not null,
+   advertiser_ogrnip    VARCHAR(64) UNIQUE         null,
+   advertiser_kpp       VARCHAR(64) UNIQUE         null,
+   advertiser_address   VARCHAR(256) UNIQUE         not null,
    constraint PK_ADVERTISER_DATA primary key (advertiser_id)
 );
 
@@ -151,7 +151,7 @@ cinema_room_number
 /*==============================================================*/
 create table countries (
    country_id           INT4                 not null,
-   country_name         VARCHAR(64)          not null,
+   country_name         VARCHAR(64) UNIQUE         not null,
    constraint PK_COUNTRIES primary key (country_id)
 );
 
@@ -167,7 +167,7 @@ country_id
 /*==============================================================*/
 create table genres (
    genre_id             INT4                 not null,
-   genre_name           VARCHAR(64)          not null,
+   genre_name           VARCHAR(64) UNIQUE         not null,
    constraint PK_GENRES primary key (genre_id)
 );
 
@@ -296,7 +296,7 @@ create table seats_rows (
    cinema_room_number   INT4                 not null,
    seat_number          INT4                 not null,
    row_number           INT4                 not null,
-   seat_row_price_coefficient FLOAT4               not null,
+   seat_row_price_coefficient FLOAT4 CHECK (seat_row_price_coefficient > 0)               not null,
    constraint PK_SEATS_ROWS primary key (seats_rows_id)
 );
 

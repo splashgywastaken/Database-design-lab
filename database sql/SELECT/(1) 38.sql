@@ -1,5 +1,4 @@
 -- Выбрать название фильма, который демонстрировался во всех залах
--- Для начала выписать список всех фильмов, которые демонстрировались во всех залах, без учета повторений
 WITH movies_list as (
 	SELECT s.movie_id, s.cinema_room_number FROM movie m 
 	JOIN show s on s.movie_id = m.movie_id

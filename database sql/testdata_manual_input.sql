@@ -452,6 +452,16 @@ insert into seats_rows (seats_rows_id, cinema_room_number, seat_number, row_numb
 values (80, 4, 4, 5, 1);
 
 
+insert into show (show_id, cinema_room_number, movie_id, show_start_time)
+values (20, 1, 5, '2022-4-29 16:20:00');
+insert into show (show_id, cinema_room_number, movie_id, show_start_time)
+values (21, 1, 5, '2022-4-29 13:20:00');
+insert into show_ads (ad_video_id, show_id) values (2, 20);
+insert into show_ads (ad_video_id, show_id) values (2, 21);
+-- 1147 Productions 3 4 
+insert into show_ads (ad_video_id, show_id) values (3, 20);
+
+
 -- кинопоказы
 insert into show (show_id, cinema_room_number, movie_id, show_start_time)
 values (1, 1, 5, '2022-5-1 16:20:00');

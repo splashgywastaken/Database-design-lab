@@ -23,6 +23,12 @@
 SELECT s.studio_name FROM studios s
 JOIN movies_studios ms on ms.studio_id = s.studio_id
 JOIN movie m on ms.movie_id = m.movie_id
-WHERE movie_length > '02:00:00' -- Сюда надо подставить время для короткометражных фильмов
+--WHERE movie_length > '02:00:00' -- Сюда надо подставить время для короткометражных фильмов
+WHERE s.studio_id NOT IN (
+	SELECT s.studio_id FROM studios s
+	JOIN movies_studios ms on ms.studio_id = s.studio_id
+	JOIN movie m on ms.movie_id = m.movie_id
+	WHERE movie_length < '03:00:00'
+)
 GROUP BY s.studio_name
-HAVING COUNT(m.movie_name) > 1 -- Сюда можно подставить количество фильмов - N 
+HAVING COUNT(m.movie_name) = 1 -- Сюда можно подставить количество фильмов - N 
